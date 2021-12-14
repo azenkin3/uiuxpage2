@@ -1,0 +1,9 @@
+#wrapa {width:1320px; height:280px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none;}
+.boxa {width:90%; height:280px;  display: flex; text-decoration-line: none; }
+.photoa {width:90%; height:280px; background-position:center; background-size:cover; border-radius: 10px; }
+
+.texta {width: 100%; padding-top:80px; padding-left: 20px; text-align: center; align-items: center; font-size: 1.5em;}
+
+
+h3{color:white;}
+p{color:#90bcd5;}

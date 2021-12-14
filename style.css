@@ -1,0 +1,46 @@
+.banner{width:100%; height:800px; background-color: yellow; background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/blur_jpg1.webp); 
+    background-position: center; background-size:cover; background-attachment: fixed;}
+
+
+.content{flex-direction:column; width:1200px; height:800px;  margin:0 auto; display:flex; justify-content: center; align-items:center; }
+.content > h1 {font-size:4vw; color:white; padding:0; margin:0; text-transform: uppercase; }
+.content > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
+
+
+#iconbox{width:100%; height:450px; background-color: blue; padding-top:0 !important;}
+.iconpage{width:1320px; height:450px; background-color: bisque; margin:0 auto;  }
+.iconpage > article { width:190px; height:190px; background-color:yellow; float:left; margin: 15px 15px;}
+
+
+#photobox{width:100%; height:900px; background-color: green;}
+.photopage{width:1320px; height:900px; background-color: fuchsia; margin:0 auto;}
+
+.photopage > p {font-size:1.5vw; color:#ff414d; text-align: center; padding-top:40px;}
+.photopage > h1{font-size:3vw; color:white; text-align:center; }
+.photopage > article {width:300px; height:500px; background-color:greenyellow; float:left;
+margin:80px 15px; }
+
+#textbox{width:100%; height:280px; background-color: black;}
+.textpage{width:1320px; height:280px; background-color: #ff414d; margin:0 auto;}
+.textpage > .textphoto{width:35%; height:auto; background-position:center; background-size:cover;}
+
+#wrapbox{width:100%; height:900px; background-color: white;}
+.wrappage{width:1200px; height:900px; background-color: blue; margin:0 auto;}
+
+
+#videobox{width:100%; height:600px; background-color: black;}
+#videobox > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white; text-align: center;}
+#videobox > p {margin:0; padding:0; font-size:1.3em; color:white; text-align: center; padding-bottom:30px;}
+.videopage{ width:1200px; height:600px; background-color: black; margin:0 auto; background-image:url(img/blur2.webp); background-position: center; border-radius: 4px; z-index:4;}
+
+
+#articlebox{width:100%; height:450px; background-color:khaki; margin:200px 0 auto;}
+.articlepage{width:1200px; height:450px; background-color:indianred; margin:0 auto;}
+.articlepage > article > {float:left; width:270px; height:350px; background-color:yellow;}
+
+#reviewbox{width:100%; height:500px; background-color: white;}
+.reviewpage{width:1200px; height:500px; background-color: black; margin:0 auto;}
+
+
+#sliderbox{width:100%; height:150px; background-color: #2079ab;}
+.sliderpage{width:1200px; height:150px; background-color: greenyellow; margin:0 auto;}
