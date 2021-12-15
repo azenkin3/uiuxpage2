@@ -38,9 +38,11 @@ margin:80px 15px; }
 .articlepage{width:1200px; height:450px; background-color:indianred; margin:0 auto;}
 .articlepage > article > {float:left; width:270px; height:350px; background-color:yellow;}
 
-#reviewbox{width:100%; height:500px; background-color: white;}
-.reviewpage{width:1200px; height:500px; background-color: black; margin:0 auto;}
+#reviewbox{width:100%; height:630px; background-color: white;}
+.reviewpage{width:1320px; height:630px; background-color: black; margin:0 auto;}
+.reviewpage > h1 {font-size:4vw; color:white; padding:0; margin:0; text-transform: uppercase; text-align: center;}
+.reviewpage > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
 
 
-#sliderbox{width:100%; height:150px; background-color: #2079ab;}
-.sliderpage{width:1200px; height:150px; background-color: greenyellow; margin:0 auto;}
+#sliderbox{width:100%; height:150px; background-color: #ff414d;}
+.sliderpage{width:1320px; height:150px; background-color: white; margin:0 auto;}
