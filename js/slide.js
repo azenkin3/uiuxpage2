@@ -1,4 +1,4 @@
-var sliderWrapper = document.querySelector('.slider_wrapper'),
+    var sliderWrapper = document.querySelector('.slider_wrapper'),
 sliderUl = sliderWrapper.querySelector('.slides'),
 slides = sliderUl.querySelectorAll('li'),
 currentIdx = 0,
@@ -18,19 +18,17 @@ currentIdx = idx;
 
 nextBtn.addEventListener('click',function(){
 if(currentIdx == slideCount - 3){
-    moveSlide(0);
+moveSlide(0);
 }else{
-    moveSlide(currentIdx + 1);
+moveSlide(currentIdx + 1);
 }
 });
 prevBtn.addEventListener('click',function(){
 if(currentIdx == 0){
-    moveSlide(slideCount - 3);
+moveSlide(slideCount - 3);
 }else{
-    moveSlide(currentIdx - 1);
+moveSlide(currentIdx - 1);
 }
 });
 
 
-/* queryseletor , moveslide idx 유튜브보고 찾아보기 
-*/
