@@ -37,8 +37,8 @@ ul{ padding:0;margin:0;}
 
 li{	list-style:none;}
 
-.slider_wrapper{	width:950px;	margin:50px auto;	position: relative;	height: 450px;	overflow:hidden;	padding-top:50px;}
-.slides{	position:absolute;	height: 450px;		width:1320px;	transition:left 0.5s ease-in-out;	left:0;	}
+.slider_wrapper{width:950px;	margin:50px auto;	position: relative;	height: 450px;	overflow:hidden;	padding-top:50px; }
+.slides{	position:absolute;	height: 450px;		width:950px;	transition:left 0.5s ease-in-out;	left:0;	}
 .slides li{	float:left;	margin-right: 30px;	width: 300px;	height: 450px;	background: #ccc;	line-height: 300px;	text-align: center;	text-transform: uppercase;	font-weight: bold;}
 .slides li:last-child{	margin-right: 0;}
 

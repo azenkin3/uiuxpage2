@@ -7,7 +7,7 @@
       margin:0 auto;
     
     background: white;
-    margin-top: 150px;
+    margin-top: 70px;
     height: 400px;
     width: 24%;
     transition: 0.6s all ease;
@@ -35,7 +35,7 @@
   .cardTopc {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/hotel3.jpg)
+    background: url(img/ski.jpg)
       no-repeat;
       background-size: cover;
   }
@@ -58,14 +58,14 @@
   .cardText {min-height: 60%; padding: 20px; }
   
   .cardTitle {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color:black;
   }
   
   .cardInfo {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     color: orange;
   }
@@ -73,8 +73,21 @@
   
   .cardHoverText {
     visibility: hidden;
+    text-align: left;
+    padding-top:20px;
+    color:#999999;
   }
   
+  .cardHoverText > ul > li > i ,span{
+      color:#ff414d; font-size:20px;
+  }
+
+  .cardHoverText > ul > #reviewli {
+      display:flex; justify-content: space-between; padding-top:25px;
+  }
+  
+
+
   /* Hover affects */
   
   .card:hover {
@@ -95,14 +108,14 @@
   }
   
   .card:hover .cardTopa {
-    height: 45%;
+    height: 15%;
     opacity: 0.8;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTopb {
-    height: 45%;
+    height: 50%;
     opacity: 0.8;
     transition: 0.4s all ease;
   }
