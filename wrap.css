@@ -14,7 +14,23 @@ p{color:#90bcd5;}
 .photob {width:90%; height:800px; background-position:center; background-size:cover; border-radius: 10px; }
 
 .textb {width: 100%; padding-top:80px; padding-left: 20px; text-align: center; align-items: center; font-size: 1.5em;}
-#wrapb > .boxb > article{ width:100px; height:100px; background-color: yellow;}
+.textb > article{ width:130px; height:130px; background-color: yellow; float:left; margin:70px 15px;}
 
-#fo{text-align: left; padding-left:40px;}
+#fo{text-align: left; color:#ff414d; font-size: 14px; padding-bottom: 1.5em !important; }
 #go{color:white; font-size:40px; font-weight: 700; line-height: 1.4;}
+
+
+.counter {
+    display: table-cell;
+    margin:1.5%;
+    font-size:30px;
+   
+    width:150px;
+   color:black;
+    height:30px;
+    vertical-align: middle;
+    
+    font-weight:600;
+  }
+
+  h4{padding-top:20px; font-size:16px; color:#ff414d;}
