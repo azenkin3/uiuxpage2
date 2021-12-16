@@ -23,13 +23,15 @@
 }
 .iconpage > article:hover > text > span {color:#ff414d; background-color: white; border-radius: 2px;}
 
-#photobox{width:100%; height:900px; background-color: green;}
-.photopage{width:1320px; height:900px; background-color: fuchsia; margin:0 auto;}
+#photobox{ width:100%; height:900px; background-color: green;}
+.photopage{ width:1320px; height:900px; background-color: fuchsia; margin:0 auto;}
 
 .photopage > p {font-size:1.5vw; color:#ff414d; text-align: center; padding-top:40px;}
 .photopage > h1{font-size:3vw; color:white; text-align:center; }
 .photopage > article {width:300px; height:500px; background-color:greenyellow; float:left;
 margin:80px 15px; }
+
+.photopage > article > img {width:100%; height:50%; background-size: cover;}
 
 #textbox{width:100%; height:280px; background-color: black;}
 .textpage{width:1320px; height:280px; background-color: #ff414d; margin:0 auto;}
