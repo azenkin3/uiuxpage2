@@ -1,5 +1,9 @@
 
 body{background: #f0f4f7 !important}
+
+
+
+
 .banner{width:100%; height:800px; background-color: yellow; background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/blur_jpg1.webp); 
     background-position: center; background-size:cover; background-attachment: fixed;}
 
@@ -52,9 +56,14 @@ margin:80px 15px; }
 .videopage{ width:1320px; height:600px; background-color: black; margin:0 auto; background-image:url(img/blur2.webp); background-position: center; border-radius: 4px; z-index:4;}
 
 
-#articlebox{width:100%; height:450px; background-color:khaki; margin:200px 0 auto;}
-.articlepage{width:1320px; height:450px; background-color:indianred; margin:0 auto;}
+#articlebox{width:100%; height:750px;  margin:200px 0 auto;}
+.articlepage{width:1320px; height:750px;  margin:0 auto;}
 .articlepage > article > {float:left; width:270px; height:350px; background-color:yellow;}
+.articlepage > p {font-size:1.3vw; color:#ff414d; text-align: center; padding-top:40px;}
+.articlepage > h1{font-size:3vw; color:black; text-align:center; }
+
+
+
 
 #reviewbox{width:100%; height:800px; background-color:#f0f4f7;}
 .reviewpage{width:1320px; height:800px; background-color: black; margin:0 auto;}

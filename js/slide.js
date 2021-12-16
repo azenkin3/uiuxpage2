@@ -1,4 +1,6 @@
-    var sliderWrapper = document.querySelector('.slider_wrapper'),
+
+
+        var sliderWrapper = document.querySelector('.slider_wrapper'),
 sliderUl = sliderWrapper.querySelector('.slides'),
 slides = sliderUl.querySelectorAll('li'),
 currentIdx = 0,
@@ -30,5 +32,3 @@ moveSlide(slideCount - 3);
 moveSlide(currentIdx - 1);
 }
 });
-
-
