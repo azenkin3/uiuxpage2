@@ -1,6 +1,12 @@
+
+
+
 .wrapper {
 	width: 100%;
-	overflow: hidden;
+  overflow:hidden;
+ margin:50px 0 100px 0;
+  
+
 }
 .photobanner {
 	position: relative;
@@ -8,6 +14,7 @@
 	margin-bottom: 30px;
 	display: flex;
 	width: 100%;
+ 
 }
 
 .photobanner img {

@@ -48,6 +48,34 @@
 
       background-size: cover;
   }
+
+
+
+
+  .cardTope {
+    transition: 0.4s all ease;
+    height: 70%;
+    background: url(img/shinra.jpg)
+      no-repeat;
+      background-size: cover;
+  }
+
+  .cardTopf {
+    transition: 0.4s all ease;
+    height: 70%;
+    background: url(img/lotte.jpg)
+      no-repeat;
+      background-size: cover;
+  }
+
+  .cardTopg {
+    transition: 0.4s all ease;
+    height: 70%;
+    background: url(img/mediang.png)
+      no-repeat;
+
+      background-size: cover;
+  }
   
   .cardBottom {
     height: 45%;
@@ -133,3 +161,23 @@
     transition: 0.4s all ease;
   }
   
+
+  .card:hover .cardTope {
+    height: 50%;
+    opacity: 0.5;
+    transition: 0.4s all ease;
+  }
+  
+
+  .card:hover .cardTopf {
+    height: 50%;
+    opacity: 0.5;
+    transition: 0.4s all ease;
+  }
+  
+
+  .card:hover .cardTopg {
+    height: 50%;
+    opacity: 0.5;
+    transition: 0.4s all ease;
+  }
