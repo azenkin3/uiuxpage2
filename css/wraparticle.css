@@ -19,7 +19,7 @@
   .cardTopa {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/hotel1.jpg)
+    background: url(../img/hotel1.jpg)
       no-repeat;
       background-size: cover;
   }
@@ -27,7 +27,7 @@
   .cardTopb {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/hotel2.jpg)
+    background: url(../img/hotel2.jpg)
       no-repeat;
       background-size: cover;
   }
@@ -35,7 +35,7 @@
   .cardTopc {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/ski.jpg)
+    background: url(../img/ski.jpg)
       no-repeat;
       background-size: cover;
   }
@@ -43,7 +43,7 @@
   .cardTopd {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/hotel4.jpg)
+    background: url(../img/hotel4.jpg)
       no-repeat;
 
       background-size: cover;
@@ -55,7 +55,7 @@
   .cardTope {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/shinra.jpg)
+    background: url(../img/shinra.jpg)
       no-repeat;
       background-size: cover;
   }
@@ -63,7 +63,7 @@
   .cardTopf {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/lotte.jpg)
+    background: url(../img/lotte.jpg)
       no-repeat;
       background-size: cover;
   }
@@ -71,7 +71,7 @@
   .cardTopg {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(img/mediang.png)
+    background: url(../img/mediang.png)
       no-repeat;
 
       background-size: cover;
@@ -104,6 +104,7 @@
     text-align: left;
     padding-top:20px;
     color:#999999;
+    line-height: 1.8;
   }
   
   .cardHoverText > ul > li > i ,span{
@@ -135,49 +136,49 @@
   }
   
   .card:hover .cardTopa {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTopb {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTopc {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTopd {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTope {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTopf {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }
   
 
   .card:hover .cardTopg {
-    height: 50%;
+    height: 48%;
     opacity: 0.5;
     transition: 0.4s all ease;
   }

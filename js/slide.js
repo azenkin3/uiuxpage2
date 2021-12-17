@@ -1,4 +1,7 @@
-        var sliderWrapper = document.querySelector('.slider_wrapper'),
+       
+      
+window.onload = function(){
+       var sliderWrapper = document.querySelector('.slider_wrapper'),
 sliderUl = sliderWrapper.querySelector('.slides'),
 slides = sliderUl.querySelectorAll('li'),
 currentIdx = 0,
@@ -29,11 +32,13 @@ moveSlide(slideCount - 3);
 }else{
 moveSlide(currentIdx - 1);
 }
+
 });
+}       
 
 /* counter */
 
-
+$(document).ready(function(){
 $('.counter').each(function() {
         var $this = $(this),
             countTo = $this.attr('data-count');
@@ -56,7 +61,7 @@ $('.counter').each(function() {
       
         });  
         
-        
+});
       
       });
       
