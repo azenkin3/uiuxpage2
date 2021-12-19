@@ -1,0 +1,55 @@
+
+/* card abcd */
+
+.iconpage > article {transform:translateY(150px); transition: all 3s; opacity: 0;}
+
+.carda{transform:translateY(100px); transition: all 3s; opacity: 0; }
+
+.cardb{transform:translateY(150px); transition: all 3.5s; opacity: 0; }
+
+.cardc{transform:translateY(200px); transition: all 3.5s; opacity: 0; }
+
+
+.cardd{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
+
+.oli{transform:translateX(500px); transition: all 2.5s; opacity: 0; }
+
+.pli{transform:translateX(650px); transition: all 3s; opacity: 0; }
+
+
+/* card abcd */
+
+.photob{transform:translateY(100px); transition: all 3s; opacity: 0; }
+
+#fo{transform:translateY(100px); transition: all 3s; opacity: 0; }
+
+#go{transform:translateY(150px); transition: all 3.5s; opacity: 0; }
+
+#pfo1{transform:translateY(200px); transition: all 3.5s; opacity: 0; }
+
+#pfo2{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
+
+
+.atc1{transform:translateY(100px); transition: all 3s; opacity: 0; }
+
+.atc2{transform:translateY(150px); transition: all 3.5s; opacity: 0; }
+
+.atc3{transform:translateY(200px); transition: all 3.5s; opacity: 0; }
+
+.atc4{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
+
+#ch4{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
+
+.counter{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
+
+#videobox{transform:translateX(-250px); transition: all 3.5s; opacity: 0; }
+
+#hli{transform:translateX(-250px); transition: all 3.5s; opacity: 0; }
+
+#aeh{transform:translateX(-250px); transition: all 3.5s; opacity: 0; }
+
+#ttl{transform:translateX(250px); transition: all 3.5s; opacity: 0; }
+#hpe{transform:translateX(250px); transition: all 3.5s; opacity: 0; }
+
+
+.slider_wrapper {transform:translateX(250px); transition: all 3.5s; opacity: 0; }

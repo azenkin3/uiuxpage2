@@ -6,8 +6,6 @@ body{background: #f0f4f7 !important; font-family:"Nunito Sans", Arial, sans-seri
 
 .banner{width:100%; height:800px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
     background-position: center; background-size:cover; background-attachment: fixed;}
-
-
 .content{flex-direction:column; width:1200px; height:800px;  margin:0 auto; display:flex; justify-content: center; align-items:center; }
 .content > h1 {font-size:4vw; color:white; padding:0; margin:0; text-transform: uppercase; }
 .content > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
@@ -16,23 +14,20 @@ body{background: #f0f4f7 !important; font-family:"Nunito Sans", Arial, sans-seri
 #iconbox{width:100%; height:450px;  padding-top:0 !important;}
 .iconpage{width:1320px; height:450px;  margin:0 auto;  }
 .iconpage > article { border-radius:12px; text-align:center; width:190px; height:190px; background-color:white; float:left; margin: 15px 15px;}
-
 .iconpage > article > i  {padding-top:25px; font-size:60px; color:#ff414d; }
 .iconpage > article > img {width:60px; height:60px; position:relative; top:10%; filter: invert(43%) sepia(94%) saturate(3620%) hue-rotate(332deg) brightness(105%) contrast(112%);}
-.iconpage > article > text > #bo {padding-top:40px;}
-.iconpage > article > text > span {color:#ff414d;}
-.iconpage > article:hover {background-color:#ff414d;}
-.iconpage > article:hover > img {filter: invert(93%) sepia(40%) 
-    saturate(2%) hue-rotate(191deg) brightness(106%) contrast(100%);
-
-}
+.iconpage > article > text > #bo {padding-top:40px; font-size:18px;}
+.iconpage > article > text > #bo:hover{color:white;}
+.iconpage > article > text > span {color:#ff414d; font-size:15px;}
+.iconpage > article:hover {background-color:#ff414d; transition: 0.6s all ease; color:white;}
+.iconpage > article:hover > img {filter: invert(93%) sepia(40%) saturate(2%) hue-rotate(191deg) brightness(106%) contrast(100%);}
 .iconpage > article:hover > text > span {color:#ff414d; background-color: white; border-radius: 2px;}
 
 #photobox{ width:100%; height:800px; }
 .photopage{ width:1320px; height:800px; margin:0 auto;}
 
-.photopage > p {font-size:1.3vw; color:#ff414d; text-align: center; padding-top:40px;}
-.photopage > h1{font-size:3vw; color:black; text-align:center; }
+.photopage > .oli {font-size:1.3vw; color:#ff414d; text-align: center; padding-top:40px;}
+.photopage > .pli {font-size:3vw; color:black; text-align:center; }
 .photopage > article {width:300px; height:500px; background-color:greenyellow; float:left;
 margin:80px 15px; }
 
@@ -50,7 +45,7 @@ margin:80px 15px; }
 #videobox{width:100%; height:700px; background-color: #1A1E25   ; margin:200px 0 auto;}
 #videobox > h1 {margin:0; padding:0; font-size:3em;  text-transform: uppercase; color:white; text-align: center; padding-top:30px; padding-bottom: 20px;}
 #videobox > p {margin:0; padding:0; font-size:1.4em; color:#ff414d;  text-align: center; padding-bottom:5px; padding-top:30px;}
-.videopage{ width:1320px; height:700px; background-color: #1A1E25; margin:0 auto; background-image:url(../img/blur2.webp); background-position: center; border-radius: 4px; z-index:4;}
+.videopage{ width:1320px; height:600px; background-color: #1A1E25; margin:0 auto; background-image:url(../img/blur2.webp); background-position: center; border-radius: 4px; z-index:4;}
 
 
 #articlebox{width:100%; height:750px;  margin:200px 0 auto;}
