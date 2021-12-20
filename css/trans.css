@@ -48,6 +48,9 @@
 .atc4{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
 
 #ch4{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
+#ch3{transform:translateY(200px); transition: all 3.3s; opacity: 0; }
+#ch2{transform:translateY(180px); transition: all 3.2s; opacity: 0; }
+#ch1{transform:translateY(150px); transition: all 3.1s; opacity: 0; }
 
 .counter{transform:translateY(250px); transition: all 3.5s; opacity: 0; }
 
