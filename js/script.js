@@ -4,12 +4,12 @@ $(window).scroll(function () {
     var ws = $(this).scrollTop();
     if (matchMedia("screen and (min-width:800px)").matches) {
 
-    if (ws > 450) {
+    if (ws > 100) {
         $('article').css("transform", "translateY(0px)").css("opacity", "1")      
     }
 
 
-    if (ws > 850) {
+    if (ws > 700) {
         $('.carda').css("transform", "translateY(0px)").css("opacity", "1")
     }
 
@@ -95,29 +95,46 @@ $(window).scroll(function () {
     }
 
 
-    if (ws > 3100) {
+    if (ws > 3200) {
         $('#hli').css("transform", "translateX(0px)").css("opacity", "1")
     }
 
-    if (ws > 3150) {
+    if (ws > 3250) {
         $('#aeh').css("transform", "translateX(0px)").css("opacity", "1")
+
+        if (ws > 3300) {
+            $('.carde').css("transform", "translateY(0px)").css("opacity", "1")
+        }
+    
+        if (ws > 3300) {
+            $('.cardf').css("transform", "translateY(0px)").css("opacity", "1")
+        }
+    
+    
+        if (ws > 3300) {
+            $('.cardg').css("transform", "translateY(0px)").css("opacity", "1")
+        }
+    
+        if (ws > 3300) {
+            $('.cardh').css("transform", "translateY(0px)").css("opacity", "1")
+        }
     }
 
 
-    if (ws > 3800) {
+    if (ws > 3900) {
         $('#reviewbox').css("transform", "translateY(0px)").css("opacity", "1")
     }
 
 
-    if (ws > 3950) {
+    if (ws > 4050) {
         $('#ttl').css("transform", "translateX(0px)").css("opacity", "1")
     }
 
-    if (ws > 3980) {
+    if (ws > 4111) {
         $('#hpe').css("transform", "translateX(0px)").css("opacity", "1")
     }
 
-    if (ws > 4100) {
+    if (ws > 4200) {
         $('.slider_wrapper').css("transform", "translateX(0px)").css("opacity", "1")
     }
 

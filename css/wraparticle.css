@@ -2,7 +2,7 @@
   
   /* Transistion both your normal and hovered elements to allow for smooth flow when unhovered */
   
-  .carda {
+  .carda{
       float:left;
       margin:0 auto;
     
@@ -59,8 +59,63 @@ margin-left:5px;
 margin-right: 5px;
 }
 
+
+.carde {
+  float:left;
+  margin:0 auto;
+
+background: white;
+margin-top: 70px;
+height: 400px;
+width: 24%;
+transition: 0.6s all ease;
+margin-left:5px;
+margin-right: 5px;
+}
+
+
+.cardf {
+float:left;
+margin:0 auto;
+
+background: white;
+margin-top: 70px;
+height: 400px;
+width: 24%;
+transition: 0.6s all ease;
+margin-left:5px;
+margin-right: 5px;
+}
+
+
+
+.cardg {
+float:left;
+margin:0 auto;
+
+background: white;
+margin-top: 70px;
+height: 400px;
+width: 24%;
+transition: 0.6s all ease;
+margin-left:5px;
+margin-right: 5px;
+}
+
+
+.cardh {
+  float:left;
+  margin:0 auto;
   
-  
+  background: white;
+  margin-top: 70px;
+  height: 400px;
+  width: 24%;
+  transition: 0.6s all ease;
+  margin-left:5px;
+  margin-right: 5px;
+  }
+    
   .cardTopa {
     transition: 0.4s all ease;
     height: 70%;
@@ -94,13 +149,10 @@ margin-right: 5px;
       background-size: cover;
   }
 
-
-
-
   .cardTope {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(../img/shinra.jpg)
+    background: url(../img/fourseoul.jpg)
       no-repeat;
       background-size: cover;
       background-position: center;
@@ -110,13 +162,25 @@ margin-right: 5px;
   .cardTopf {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(../img/lotte.jpg)
+    background: url(../img/shinra.jpg)
       no-repeat;
       background-size: cover;
       background-position: center;
   }
 
   .cardTopg {
+    transition: 0.4s all ease;
+    height: 70%;
+    background: url(../img/lotte.jpg)
+      no-repeat;
+
+      background-size: cover;
+      background-position: center;
+
+  }
+  
+
+  .cardToph {
     transition: 0.4s all ease;
     height: 70%;
     background: url(../img/mediang.png)
@@ -126,7 +190,6 @@ margin-right: 5px;
       background-position: center;
 
   }
-  
   .cardBottom {
     height: 45%;
   
@@ -230,18 +293,23 @@ margin-right: 5px;
   }
   
 
-  .cardd:hover {
+  .cardd:hover , .eardd:hover , .cardf:hover 
+  , .cardg:hover .cardh:hover{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   }
   
   
-  .cardd:hover .cardHoverText {
+  .cardd:hover .cardHoverText , .carde:hover .cardHoverText
+  , .cardf:hover .cardHoverText , .cardg:hover .cardHoverText
+  , .cardh:hover .cardHoverText{
     visibility: visible;
     transition: 0.4s all ease;
-    transition-delay: 1.1999s;
+    transition-delay: 0.1999s;
   }
   
-  .cardd:hover .cardBottom {
+  .cardd:hover .cardBottom , .carde:hover .cardBottom
+  , .cardf:hover .cardBottom , .cardg:hover .cardBottom
+  , .cardh:hover .cardBottom {
     transition: 0.4s all ease;
     height: 65%;
     opacity: 1;
@@ -250,49 +318,11 @@ margin-right: 5px;
 
 
 
-  .carda:hover .cardTopa {
+  .carda:hover .cardTopa ,  .cardb:hover .cardTopb
+  , .cardc:hover .cardTopc ,  .cardd:hover .cardTopd
+  , .cardf:hover .cardTopf  ,.cardg:hover .cardTopg
+  , .carde:hover .cardTope  , .cardh:hover .cardToph{
     height: 48%;
     opacity: 0.5;
-    transition: 0.4s all ease;
-  }
-
-  .cardb:hover .cardTopb {
-    height: 48%;
-    opacity: 0.5;
-    transition: 0.4s all ease;
-  }
-  
-
-  .cardc:hover .cardTopc {
-    height: 48%;
-    opacity: 0.5;
-    transition: 0.4s all ease;
-  }
-  
-
-  .cardd:hover .cardTopd {
-    height: 48%;
-    opacity: 0.5;
-    transition: 0.4s all ease;
-  }
-  
-
-  .cardb:hover .cardTope {
-    height: 48%;
-    opacity: 0.5;
-    transition: 0.4s all ease;
-  }
-  
-
-  .cardc:hover .cardTopf {
-    height: 48%;
-    opacity: 0.5;
-    transition: 0.4s all ease;
-  }
-  
-
-  .cardd:hover .cardTopg {
-    height: 48%;
-    opacity: 0.5;
-    transition: 0.4s all ease;
+    transition: 0.8s all ease;
   }

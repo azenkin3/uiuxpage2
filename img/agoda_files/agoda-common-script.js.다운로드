@@ -1,0 +1,26 @@
+window.addEventListener('load', function () {
+  const wp63 = window.wp63;
+
+  window.agoda = window.agoda || {};
+  window.agoda.trafficMessage = {
+    wp_server: wp63.server,
+    browser_language: wp63.current_language,
+    device_type_id: wp63.device_id,
+    page_type_id: wp63.page_type_id,
+    wp_request_url: window.location.pathname,
+    wp_cookies: window.document.cookie,
+    wp_referer_url: wp63.http_referer,
+    wp_http_method: wp63.http_method,
+    wp_query_string: wp63.query_string,
+  };
+
+  const messagingClient = MessagingClient.instantiate({
+      apiKey: 'febaymaxdevs',
+      workerUrl: '/wp-content/themes/agoda-travel-guides/static/messaging-client/messaging-client-worker.js',
+      polyfillsUrl: '/wp-content/themes/agoda-travel-guides/static/messaging-client/messaging-client-polyfills.js',
+      mode: window.wp63.config.mode
+  });
+
+  const message = messagingClient.create('WPTraffic', window.agoda.trafficMessage);
+  messagingClient.send(message);
+});

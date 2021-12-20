@@ -20,13 +20,20 @@
 .photobanner img {
   margin: 0px 25px;
   box-shadow: 2px 2px 8px #8a8a8a;
-  width:200px; height:150px;
+  width:250px; height:130px;
   margin:0 30px; 
+  
 }
 
 .photobanner {
   animation: bannermove 10s linear infinite alternate-reverse;
+  
 }
+
+
+
+
+
 
 @keyframes bannermove {
   from {
