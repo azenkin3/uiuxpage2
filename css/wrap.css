@@ -42,32 +42,137 @@ p{color:#90bcd5;}
 
 
 
-  @media (min-width:499px) and (max-width:735px){
+  @media (min-width:499px) and (max-width:770px){
 
-    #wrapb {width:100%; height:700px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
-    .boxb {width:100%; height:700px;  display: flex; text-decoration-line: none; }
+
+    #wrapbox{width:100%; height:400px; }
+
+    #wrapb {width:100%; height:400px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
+    .boxb {width:100%; height:400px;  display: flex; text-decoration-line: none; }
     .photob {display:none; }
     
-    .textb {width: 100%; padding-top:80px; padding-left: 20px; text-align: center; align-items: center; font-size: 1.5em;}
-    #artbox > article{ width:200px; height:50px; background-color:#f8f9fa; float:left; margin:70px 15px;}
-    
+    .textb {width: 100%; height:400px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
+    #artbox{display:none; width:100%; height:400px; background-color:#f8f9fa; float:left;}
+    #artbox > article {width:100%; height:50px; flex-direction: row;
+    display:none;}
+
+
+
     #fo{text-align: left; color:#ff414d; font-size: 14px; padding-bottom: 1.5em !important; }
     #go{color:black; font-size:40px; font-weight: 700; line-height: 1.4;}
 
 
 
     .counter {
+      
       display: table-cell;
       margin:1.5%;
       font-size:30px;
      
-      width:200px;
+      width:150px;
      color:black;
       height:30px;
       vertical-align: middle;
       
       font-weight:600;
+
+      display:none;
     }
   
-    h4{padding-top:20px; font-size:16px; color:#ff414d;}
+    #artbox > article > #ch1 , #ch2 , #ch3 , #ch4 {
+      font-size:16px; color:#ff414d; 
+    
+    width:100%;
+  
+  display:none;}
+
+  }
+
+
+
+  @media (min-width:771px) and (max-width:1098px){
+    #wrapbox{width:100%; height:400px; }
+
+    #wrapb {width:100%; height:400px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
+    .boxb {width:100%; height:400px;  display: flex; text-decoration-line: none; }
+    .photob {display:none; }
+    
+    .textb {width: 100%; height:400px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
+    #artbox{display:none; width:100%; height:400px; background-color:#f8f9fa; float:left;}
+    #artbox > article {width:100%; height:50px; flex-direction: row;
+    display:none;}
+
+
+
+    #fo{text-align: left; color:#ff414d; font-size: 14px; padding-bottom: 1.5em !important; }
+    #go{color:black; font-size:40px; font-weight: 700; line-height: 1.4;}
+
+
+
+    .counter {
+      
+      display: table-cell;
+      margin:1.5%;
+      font-size:30px;
+     
+      width:150px;
+     color:black;
+      height:30px;
+      vertical-align: middle;
+      
+      font-weight:600;
+
+      display:none;
+    }
+  
+    #artbox > article > #ch1 , #ch2 , #ch3 , #ch4 {
+      font-size:16px; color:#ff414d; 
+    
+    width:100%;
+  
+  display:none;}
+  
+  
+  
+  }
+
+
+
+  @media (min-width:1099px) and (max-width:1319px){
+
+
+  
+
+    #wrapb {width:100%; height:400px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
+    .boxb {width:100%; height:400px;  display: flex; text-decoration-line: none; }
+    .photob {width:90%; height:800px; background-position:center; background-size:cover; border-radius: 10px; }
+
+    
+    .textb {width: 100%; height:400px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
+    #artbox{display:none; width:100%; height:400px; background-color:#f8f9fa; float:left;}
+    #artbox > article {width:100%; height:50px; flex-direction: row;}
+    
+
+
+    #fo{text-align: left; color:#ff414d; font-size: 14px; padding-bottom: 1.5em !important; }
+    #go{color:black; font-size:40px; font-weight: 700; line-height: 1.4;}
+
+
+
+    .counter {
+      
+      display: table-cell;
+      margin:1.5%;
+      font-size:30px;
+     
+      width:150px;
+     color:black;
+      height:30px;
+      vertical-align: middle;
+      
+      font-weight:600;
+
+    }
+
+
   }
