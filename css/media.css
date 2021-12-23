@@ -3,7 +3,8 @@
 
     /* Nav container */
 
-    #navbar2{width:100%; height:150px;}
+    #navbar2{width:100%; height:80px;}
+   
 
     .logo { padding-top:15px;}
     .navbar {width:100%;flex-direction: column;align-items: flex-start; padding:none;}
@@ -89,15 +90,14 @@
 
 
 @media (min-width:771px) and (max-width:1319px){
+ 
 
 
   .banner{width:100%; height: 1000px;}
   .banner h1 {font-size:40px;}
   .content{width:100%; height: 1000px;}
 
-  .cover{width:90%; margin:0 auto;}
-
-  .flex-form{width:100%; height:170px; flex-direction: column; margin:0 auto;} 
+  
 
   
 
@@ -112,7 +112,8 @@
 
 @media (min-width:771px) and (max-width:1098px){
 
-  #navbar2{width:100%; height:150px;}
+  #navbar2{width:100%; height:80px;}
+  .navbar{width:100%; height:80px;}
 
 
 #photobox{width:100%; height:2100px; }
@@ -140,26 +141,24 @@
 .sliderpage{width:100%; height:150px; background-color: #f0f4f7; margin:0 auto; }
 
 
-
 .slider_wrapper{width:49%; height:600px;}
 
+.cover{width:90%; margin:0 auto;}
 
+    .flex-form{width:100%; height:170px; flex-direction: column; margin:0 auto;}
+
+ 
 
 
 }
 
 
 
-
 @media (min-width:1099px) and (max-width:1319px){
 
   
-  #navbar2{width:100%; height:150px;}
-
- 
-
- 
-
+  #navbar2{width:100%; height:80px;}
+  .navbar{width:100%; height:80px;}
 
 #photobox{width:100%; height:900px; }
 .photopage {width:100%; height:900px;}
@@ -168,9 +167,9 @@
 .carda , .cardb , .cardc ,.cardd { width:25%; height:600px; margin:20px auto; }
 
 
-#articlebox{width:100%; height:2000px; }
-    .articlepage{width:100%; height:2000px; display:flex; flex-direction: column;}
-    .carde , .cardf , .cardg ,.cardh { width:70%; height:600px; margin:20px auto; }
+#articlebox{width:100%; height:900px; }
+    .articlepage{width:100%; height:900px;}
+    .carde , .cardf , .cardg ,.cardh { width:25%; height:600px; margin:20px auto; }
     .articlepage > #hli{font-size:25px;}
     .articlepage > #aeh{font-size:40px; color:black;}
 
@@ -180,6 +179,11 @@
 
 #reviewbox{width:100%; height:800px;}
     .reviewpage{width:100%; height:800px;}
+
+
+    .cover{width:90%; margin:0 auto;}
+
+    .flex-form{width:100%; height:100px;  margin:0 auto;}
 
 
     #sliderbox{width:100%; height:150px;}
