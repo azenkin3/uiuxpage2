@@ -43,7 +43,7 @@ $('.slide').css({marginLeft:0});
 
 
 
-setInterval(slide, 4500);
+setInterval(slide, 5500);
 
 
 
