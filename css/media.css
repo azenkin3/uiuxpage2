@@ -1,5 +1,5 @@
 
-@media (min-width:300px) and (max-width:770px){
+@media screen and (max-width:770px){
 
     /* Nav container */
 
@@ -75,8 +75,8 @@
 
 
 
-    #reviewbox{width:100%; height:800px;}
-    .reviewpage{width:100%; height:800px;}
+    #reviewbox{width:100%; height:600px;}
+    .reviewpage{width:100%; height:600px;}
 
 
     #sliderbox{width:100%; height:150px;}
