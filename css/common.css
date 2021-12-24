@@ -10,7 +10,7 @@
         background-color: #1a1a1a;
         height: 80px;
         
-        width:1200px;
+        width:1320px;
 
         margin:0 auto;
 }
@@ -54,6 +54,7 @@
         right: 32px;
         font-size: 24px;
         color: white;
+        
 }
 
 
@@ -128,7 +129,8 @@
         display: inline-block;
         height: 40px;
         margin: 0 10px;
-        padding-top: 7px;
+       text-align: center;
+       padding-top:10px;
         transition: all 0.4s ease 0s;
         width: 40px;
         align-content: center;
@@ -147,6 +149,8 @@
       
 
     }
+
+  
     
     footer {
         background: #1A1E25;

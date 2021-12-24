@@ -45,13 +45,13 @@ p{color:#90bcd5;}
   @media (min-width:499px) and (max-width:770px){
 
 
-    #wrapbox{width:100%; height:400px; }
+    #wrapbox{width:100%; height:450px; }
 
-    #wrapb {width:100%; height:400px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
-    .boxb {width:100%; height:400px;  display: flex; text-decoration-line: none; }
+    #wrapb {width:100%; height:450px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
+    .boxb {width:100%; height:450px;  display: flex; text-decoration-line: none; }
     .photob {display:none; }
     
-    .textb {width: 100%; height:400px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
+    .textb {width: 100%; height:450px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
     #artbox{display:none; width:100%; height:400px; background-color:#f8f9fa; float:left;}
     #artbox > article {width:100%; height:50px; flex-direction: row;
     display:none;}
@@ -62,7 +62,8 @@ p{color:#90bcd5;}
     #go{color:black; font-size:40px; font-weight: 700; line-height: 1.4;}
 
 
-
+    #pfo1{font-size:13px;}
+    #pfo2{font-size:13px;}
     .counter {
       
       display: table-cell;
@@ -91,23 +92,24 @@ p{color:#90bcd5;}
 
 
   @media (min-width:771px) and (max-width:1098px){
-    #wrapbox{width:100%; height:400px; }
+    #wrapbox{width:100%; height:600px; }
 
-    #wrapb {width:100%; height:400px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
-    .boxb {width:100%; height:400px;  display: flex; text-decoration-line: none; }
-    .photob {display:none; }
+    #wrapb {width:100%; height:600px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
+    .boxb {width:100%; height:600px;  display: flex; text-decoration-line: none; }
+    .photob {width:50%; height:600px;}
     
-    .textb {width: 100%; height:400px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
-    #artbox{display:none; width:100%; height:400px; background-color:#f8f9fa; float:left;}
-    #artbox > article {width:100%; height:50px; flex-direction: row;
-    display:none;}
+    .textb {width: 70%; height:600px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
+    #artbox{display:flex; justify-content: space-around;}
+    #artbox > article {width:110px; height:110px; flex-direction: row;
+ }
 
 
 
     #fo{text-align: left; color:#ff414d; font-size: 14px; padding-bottom: 1.5em !important; }
     #go{color:black; font-size:40px; font-weight: 700; line-height: 1.4;}
 
-
+  #pfo1{font-size:15px;}
+  #pfo2{font-size:15px;}
 
     .counter {
       
@@ -122,17 +124,8 @@ p{color:#90bcd5;}
       
       font-weight:600;
 
-      display:none;
+      
     }
-  
-    #artbox > article > #ch1 , #ch2 , #ch3 , #ch4 {
-      font-size:16px; color:#ff414d; 
-    
-    width:100%;
-  
-  display:none;}
-  
-  
   
   }
 
@@ -143,14 +136,15 @@ p{color:#90bcd5;}
 
   
 
-    #wrapb {width:100%; height:400px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
-    .boxb {width:100%; height:400px;  display: flex; text-decoration-line: none; }
+    #wrapb {width:100%; height:800px;  margin:0 auto; display:flex;  flex-flow:row wrap; text-decoration-line: none; }
+    .boxb {width:100%; height:800px;  display: flex; text-decoration-line: none; }
     .photob {width:90%; height:800px; background-position:center; background-size:cover; border-radius: 10px; }
 
     
     .textb {width: 100%; height:400px; padding-top:80px; text-align: center; align-items: center; font-size: 1.5em;}
-    #artbox{display:none; width:100%; height:400px; background-color:#f8f9fa; float:left;}
-    #artbox > article {width:100%; height:50px; flex-direction: row;}
+    #artbox{display:flex; justify-content: space-around;}
+     
+    #artbox > article {width:100px; height:100px; margin: 100px 10px ; }
     
 
 
@@ -158,7 +152,8 @@ p{color:#90bcd5;}
     #go{color:black; font-size:40px; font-weight: 700; line-height: 1.4;}
 
 
-
+    #pfo1{font-size:15px;}
+    #pfo2{font-size:15px;}
     .counter {
       
       display: table-cell;

@@ -95,28 +95,6 @@
 }
 
 
-@media (min-width:771px) and (max-width:1319px){
- 
-
-
-  .banner{width:100%; height: 1000px;}
-  .banner h1 {font-size:40px;}
-  .content{width:100%; height: 1000px;}
-
-  
-
-  
-
-   #iconbox{width:100%; height:700px; }
-   .iconpage {width:100%; height:700px; margin:0 auto;}
-   .iconpage article { width:30%; height:150px; margin: 20px 12px auto; border-radius: 0; }
-    
-
- #slidewrap {width:100%;}
- .slide , .slide li { width:100%;}
-}
-
-
 @media (min-width:771px) and (max-width:1098px){
 
   #navbar2{width:100%; height:80px;}
@@ -140,8 +118,8 @@
     .articlepage > #aeh{font-size:40px; color:black;}
 
 
-    #reviewbox{width:100%; height:800px;}
-    .reviewpage{width:100%; height:800px;}
+    #reviewbox{width:100%; height:600px;}
+    .reviewpage{width:100%; height:600px;}
 
     
     #sliderbox{width:100%; height:150px;}
@@ -187,9 +165,11 @@
 .videopage{ width:100%; height:auto;}
 .videopage > video{width:100%; height:auto;}
 
-#reviewbox{width:100%; height:800px;}
-    .reviewpage{width:100%; height:800px;}
+#reviewbox{width:100%; height:650px;}
+    .reviewpage{width:100%; height:650px;}
 
+
+    #wrappage{display:block;}
 
     .cover{width:90%; margin:0 auto;}
 
@@ -199,12 +179,31 @@
     #sliderbox{width:100%; height:150px;}
 .sliderpage{width:100%; height:150px; background-color: #f0f4f7; margin:0 auto; }
 
-
-
-
-
 }
 
+
+/* 771px ~ 1319 중복 */
+
+@media (min-width:771px) and (max-width:1319px){
+ 
+
+
+  .banner{width:100%; height: 1000px;}
+  .banner h1 {font-size:40px;}
+  .content{width:100%; height: 1000px;}
+
+  
+
+  
+
+   #iconbox{width:100%; height:700px; }
+   .iconpage {width:100%; height:700px; margin:0 auto;}
+   .iconpage article { width:30%; height:150px; margin: 20px 12px auto; border-radius: 0; }
+    
+
+ #slidewrap {width:100%;}
+ .slide , .slide li { width:100%;}
+}
 
 
 
