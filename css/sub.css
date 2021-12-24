@@ -1,0 +1,49 @@
+
+.banner{width:100%; height:500px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
+    background-position: center; background-size:cover; background-attachment: fixed; text-align: center;}
+    .content{flex-direction:column; width:1200px; height:500px;  margin:0 auto; display:flex; justify-content: center; align-items:center; }
+.content > h1 {font-size:4vw; color:white; padding:0; margin:0; text-transform: uppercase; }
+.content > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
+
+
+#topbox{
+    width:100%; 
+    height:8000px;
+     background-color: yellow; 
+     display:flex;
+     }
+
+#fullbox{
+    width:1320px; 
+    height:8000px;  
+    margin:0 auto; 
+    display:flex;
+    flex-direction: row;
+}
+
+.longbox{width:880px; 
+    height:8000px; 
+    background-color:black;
+    margin-left:auto; 
+    margin-right: auto; 
+}
+
+.longbox > h3 {
+    color:white;
+}
+
+.longbox > p {
+    color:white;
+}
+
+.shortbox{
+    width:439px;
+     height:1000px; 
+     background-color: black; 
+  
+     position:sticky;
+     top:0;
+    }
+
+
+    .grad2{width:100%; height:250px; background-color:white;}
