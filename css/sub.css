@@ -87,7 +87,7 @@ button{transition: .3s all ease;}
 
     .grad3{
         width:100%; 
-        height:350px; 
+        height:450px; 
        
     }
 
@@ -96,23 +96,23 @@ button{transition: .3s all ease;}
     
 
 
-    #tagcloud{color:white;}
+    #tagcloud{color:black; font-size: 40px; padding-bottom: 20px;}
 
     .grad5{
         width:100%; 
-        height:350px;
+        height:450px;
          background-color:darkorange;
         }
 
-    #instabox{
+    .instabox{
         width:439px;
-         height:350px; 
+         height:400px; 
          background-color: deeppink;
         
       
           
     }
-    #instabox > article {
+    .instabox > article {
          width:120px;
           height:130px;
           background-color: dimgray;
@@ -123,7 +123,7 @@ button{transition: .3s all ease;}
 
         } 
 
-     #instabox > article img {
+     .instabox > article img {
 
         width:120px;
         height:130px;   
