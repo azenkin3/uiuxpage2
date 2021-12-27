@@ -1,3 +1,4 @@
+body{font-family: "Nunito Sans",Arial,sans-serif;}
 
 .banner{width:100%; height:500px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
     background-position: center; background-size:cover; background-attachment: fixed; text-align: center;}
@@ -9,7 +10,7 @@
 #topbox{
     width:100%; 
     height:8000px;
-     background-color: yellow; 
+     
      display:flex;
      }
 
@@ -53,14 +54,94 @@ width:100%;
 height:600px;
 }
 
+
+.but{width:300px; height:30px;  background-color: aqua; margin-top:40px;}
+
+.bigphoto{width:100%; height:1000px;}
+
+button{transition: .3s all ease;}
+
+
+
+/* short box */
+/* short box */
+/* short box */
+/* short box */
+/* short box */
+/* short box */
+
 .shortbox{
     width:439px;
-     height:1000px; 
-     background-color: black; 
+     height:1600px; 
+     
   
-     position:sticky;
-     top:0;
+     
     }
 
 
-    .grad2{width:100%; height:250px; background-color:white;}
+    .grad2{
+        width:100%;
+         height:250px; 
+         background-color:white;
+        }
+
+    .grad3{
+        width:100%; 
+        height:350px; 
+       
+    }
+
+    .grad3 h1 {color:20px; }
+
+    
+
+
+    #tagcloud{color:white;}
+
+    .grad5{
+        width:100%; 
+        height:350px;
+         background-color:darkorange;
+        }
+
+    #instabox{
+        width:439px;
+         height:350px; 
+         background-color: deeppink;
+        
+      
+          
+    }
+    #instabox > article {
+         width:120px;
+          height:130px;
+          background-color: dimgray;
+          margin:10px 13px;
+          float:left;
+          
+          
+
+        } 
+
+     #instabox > article img {
+
+        width:120px;
+        height:130px;   
+     }
+
+
+
+        .grad6
+
+        {
+            width:100%;
+            height:400px;
+            background-color: dodgerblue;
+
+
+        }
+
+        .grad2 > ul > li {
+
+            line-height: 2.0;
+        }

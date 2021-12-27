@@ -3,18 +3,18 @@
     .photog1 , .photog2 , .photog3 {width:30%; height:100px; background-position:center; background-size:cover; border-radius: 10px; }
 
     
-    .textg1 {width: 70%; height:100px; padding-top:20px; text-align: center; align-items: center; font-size: 1.5em;}
+    .textg1 , .textg2 , .textg3{width: 70%; height:100px; padding-top:10px; text-align: center; align-items: center; font-size: 1.5em;}
     
 
-    .textg1 > h3 , .textg2 > h3 , .textg3 > h3{
-        color:white;
+    .textg1 h3 , .textg2 h3 , .textg3 h3{
+        color:black;
 
-        font-size:15px;
+        font-size:18px;
     }
 
 
     .textg1 > p , .textg2 > p , .textg3 > p{
-        color:white;
+        color:#ff414d;
  
         padding-top:15px;
     
