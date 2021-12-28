@@ -1,4 +1,7 @@
-body{font-family: "Nunito Sans",Arial,sans-serif;}
+body{font-family: "Nunito Sans",Arial,sans-serif;
+
+line-height:1.8;
+}
 
 .banner{width:100%; height:500px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
     background-position: center; background-size:cover; background-attachment: fixed; text-align: center;}
@@ -9,44 +12,45 @@ body{font-family: "Nunito Sans",Arial,sans-serif;}
 
 #topbox{
     width:100%; 
-    height:8000px;
+    height:4000px;
      
      display:flex;
      }
 
 #fullbox{
     width:1320px; 
-    height:8000px;  
+    height:4000px;  
     margin:0 auto; 
     display:flex;
     flex-direction: row;
 }
 
-.longbox{width:880px; 
-    height:8000px; 
-    background-color:black;
+.longbox{width:869px; 
+    height:4000px; 
+    
     margin-left:auto; 
     margin-right: auto; 
 }
 
 .longbox > h3 {
-    color:white;
+    color:black;
 }
 
 .longbox > p {
-    color:white;
+    color:black;
 }
 
 .longh1 {
 
-    color:white;
+    color:black;
 
     font-size:30px;
 
-    padding-top:50px;
+    padding-top:60px;
 }
 
 
+.pxod{color:#999999; font-size: 16px;}
 
 .longbox > .longimg1 {
 
@@ -55,11 +59,39 @@ height:600px;
 }
 
 
-.but{width:300px; height:30px;  background-color: aqua; margin-top:40px;}
+.longh3{
+
+    color:black;
+    font-size:30px;
+    padding-top:80px;
+}
+
+.longh12{
+
+    color:black;
+    font-size:30px;
+    padding-top:60px;
+}
+
+.botphoto{width:100%; padding-top:30px;}
+
+
+.but{width:450px; height:70px;   margin-top:40px;}
 
 .bigphoto{width:100%; height:1000px;}
 
-button{transition: .3s all ease;}
+button{color:#Fff; background-color: #ff414d; border-radius: 5px;
+
+padding:10px 10px;
+margin-right:7px;
+margin-bottom:10px;
+border:none;
+
+}
+
+button a {text-decoration: none; color:#fff; }
+
+
 
 
 
@@ -73,6 +105,7 @@ button{transition: .3s all ease;}
 .shortbox{
     width:439px;
      height:1600px; 
+     padding-left:1.8em !important;
      
   
      
@@ -98,25 +131,35 @@ button{transition: .3s all ease;}
 
     #tagcloud{color:black; font-size: 40px; padding-bottom: 20px;}
 
+
+    .btn2{
+        color:white;
+        background-color: #ff414d;
+        padding: 10px 10px; 
+        border-radius: 5px ;
+        margin:5px 5px;
+        
+    }
+
     .grad5{
         width:100%; 
         height:450px;
-         background-color:darkorange;
+         
         }
 
     .instabox{
         width:439px;
          height:400px; 
-         background-color: deeppink;
+        
         
       
           
     }
     .instabox > article {
-         width:120px;
+         width:130px;
           height:130px;
-          background-color: dimgray;
-          margin:10px 13px;
+         
+          margin-right:10px;
           float:left;
           
           
@@ -126,7 +169,7 @@ button{transition: .3s all ease;}
      .instabox > article img {
 
         width:120px;
-        height:130px;   
+        height:110px;   
      }
 
 
@@ -136,7 +179,7 @@ button{transition: .3s all ease;}
         {
             width:100%;
             height:400px;
-            background-color: dodgerblue;
+           
 
 
         }

@@ -141,6 +141,8 @@
         color: #FAB702;
         transform: translateY(-8%);
     }
+
+    .social ul li i {text-align:center; font-size:15px;}
     
     .contact img {
         width:300px;

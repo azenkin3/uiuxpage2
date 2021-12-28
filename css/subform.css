@@ -1,7 +1,7 @@
 
 
 
-.search-container { width:300px; height:55px; padding:10px; position:relative; margin:0 auto; }
+.search-container { width:300px; height:55px; padding:90px; margin-right:10px; }
 
 
 
@@ -12,7 +12,9 @@ input {width:300px; height:32px;
     font-size:10px; color:black; 
     background-color:#1a1a1a;
     outline: none; border:none; padding:10px; border-radius:20px; 
-    transition:all 0.3s;}
+    transition:all 0.3s;
+
+}
 
 
 
