@@ -134,10 +134,14 @@ button a {text-decoration: none; color:#fff; }
 
     .btn2{
         color:white;
-        background-color: #ff414d;
+        background-color: #AAAAAA;
         padding: 10px 10px; 
         border-radius: 5px ;
         margin:5px 5px;
+        height:35px;
+        font-size: .85em;
+        width:100px;
+       
         
     }
 
@@ -188,3 +192,6 @@ button a {text-decoration: none; color:#fff; }
 
             line-height: 2.0;
         }
+
+
+        .title{text-align:center;}
