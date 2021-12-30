@@ -1,6 +1,6 @@
 
 
-window.onload = function(){
+
 
 function slide(){
 
@@ -13,4 +13,3 @@ $('.slide').animate({marginTop:0});
 }
 
 setInterval(slide, 3000);
-}

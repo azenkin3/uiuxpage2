@@ -13,21 +13,22 @@ line-height:1.8;
 
 #topbox{
     width:100%; 
-    height:7000px;
+    height:5500px;
      
      display:flex;
      }
 
 #fullbox{
     width:1320px; 
-    height:7000px;  
+    height:5500px;  
     margin:0 auto; 
     display:flex;
     flex-direction: row;
+    padding-top:20px;
 }
 
 .longbox{width:869px; 
-    height:7000px; 
+    height:5500px; 
     
     margin-left:auto; 
     margin-right: auto; 
@@ -99,7 +100,8 @@ border:none;
 
 button a {text-decoration: none; color:#fff; }
 
-
+.localphoto{width:869px; height:500px;}
+.starphoto{width:869px; height:500px; padding-top:100px;}
 
 
 
@@ -111,9 +113,13 @@ button a {text-decoration: none; color:#fff; }
 /* short box */
 
 .shortbox{
-    width:439px;
-     height:1600px; 
+    padding-top:20px;
+    width:400px;
+     height:700px; 
      padding-left:1.8em !important;
+     border:solid 1px black;
+     position:sticky;
+     top:0;
      
   
      
@@ -215,3 +221,29 @@ input[type="radio"] + label {display:inline-block;
 
 input[id="tab01"]:checked ~ .con1 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
+
+.age{font-size:13px;}
+.price{font-size:17px; font-weight: 70  0;}
+.adult{width:300px; height:100px; }
+.adultbox{width:100%; height:100px; display:flex;
+    justify-content: space-between;}
+
+#btn_add{width:100px; height:100px;}
+#btn_add2{width:100px; height:100px;}
+
+
+.young{width:300px; height:100px;} 
+.youngbox{width:100%; height:100px; display:flex;
+    justify-content: space-between; }
+
+.kidsbox{width:100%; height:100px; display:flex;
+justify-content: space-between;}
+
+
+.sumbox{width:100%; height:100px; display:flex;
+justify-content: space-between;}
+
+#btn_add{width:50px; height:50px;}
+#btn_add2{width:100px; height:100px;}
+
+
