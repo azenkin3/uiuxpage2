@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/subwrap.css">
     <link rel="stylesheet" href="css/subslide.css">
     <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/arco.css">
 
 
 
@@ -24,6 +25,7 @@
     <script src="js/subslide.js"></script>
     <script src="js/toptab.js"></script>
     <script src="js/count.js"></script>
+    <script src="js/dropdown.js"></script>
 
 </head>
 <body>
@@ -83,10 +85,18 @@
 
                 <input type="radio" name="tabmenu" id="tab01" checked>
                 <label for="tab01">상품정보</label>
+
                 <input type="radio" name="tabmenu" id="tab02">
                 <label for="tab02">여행일정</label>
+
                 <input type="radio" name="tabmenu" id="tab03">
                 <label for="tab03">여행평가</label>
+
+                <input type="radio" name="tabmenu" id="tab04">
+                <label for="tab04"><a class="popup"href="Page.html" 
+                    onclick="window.open(this.href, '_blank', 'width=800, height=600, top=100 left=500'); return false;">
+                    항공여정팝업
+                </a></label>
 
 
 
@@ -148,7 +158,7 @@
 
                     <div id="wrap6">
                         <a href="#" class="box6">
-                            <div class="photo6" style="background-image: url(../uiuxpage2/img/hole.JPG);"></div>
+                            <div class="photo6" style="background-image: url(../uiuxpage2/img/summit.png);"></div>
                             <div class="text6">
 
 
@@ -177,6 +187,7 @@
 
 
                     <img class="localphoto" src="img/local.JPG">
+
                     <div class="textbox" style="background-color:#f8f8f8;">
                         <h1 id="pxhd"
                             style="color:#1a1a1a; font-size:35px; text-align: left; font-weight: 600; padding-left: 15px;">
@@ -191,7 +202,8 @@
 
 
 
-                    <img class="starphoto" src="img/star.JPG">
+                    <img class="starphoto" src="img/starbucks.PNG">
+
                     <div class="textbox" style="background-color:#f8f8f8;">
                         <h1 id="pxhd"
                             style="color:#1a1a1a; font-size:35px; text-align: left; font-weight: 600; padding-left: 15px;">
@@ -206,15 +218,26 @@
 
 
 
-
+                    <div class="conbox con2">
+                        <img src="img/sub main0.jfif">>
+                    </div>
 
 
 
 
                 </div>
 
+
+                
+
+                
+        
+
             </div>
-    
+
+
+            
+            
 
 
 
@@ -232,7 +255,7 @@
                     <input type="button" id=minus a href="#add_one" value=- style="width:50px; height:50px;"
                         onclick="javascript:this.form.amounts.value--;">
 
-                    <input type=text id=amounts value=1 style="width:50px; height:50px;
+                    <input type=text id=amounts value=0 style="width:50px; height:50px;
                     text-align:center;">
 
                     <input type="button" id=plus a href="#add_one" value=+ style="width:50px; height:50px;"
@@ -253,7 +276,7 @@
                 <form class="youngform" style="margin-right:15px; margin-top:10px;">
                     <input type="button" id=minus2 a href="#add_one" value=- style="width:50px; height:50px;"
                     onclick="javascript:this.form.amountss.value--;">
-                    <input type=text id=amountss value=1 style="width:50px; height:50px; text-align:center;">
+                    <input type=text id=amountss value=0 style="width:50px; height:50px; text-align:center;">
                     <input type="button" id=plus2 a href="#add_one" value=+ style="width:50px; height:50px;"
                     onclick="javascript:this.form.amountss.value++;">
                 </form>
@@ -272,21 +295,85 @@
                 <form class="kidsform" style="margin-right:15px; margin-top:10px;">
                     <input type="button" id=minus3 a href="#add_one" value=- style="width:50px; height:50px;"
                     onclick="javascript:this.form.amountsss.value--;">
-                    <input type=text id=amountsss value=1 style="width:50px; height:50px; text-align:center;">
+                    <input type=text id=amountsss value=0 style="width:50px; height:50px; text-align:center;">
                     <input type="button" id=plus3 a href="#add_one" value=+ style="width:50px; height:50px;"
                     onclick="javascript:this.form.amountsss.value++;">
                 </form>
 
+
+                
             </div>
 
             <div class="sumbox">
 
             <h1>총금액</h1>
 
-            <input type="text" name="line1" class="line" value="0" style="width:160px; height:45px; margin-right:15px; margin-top:10px;">
+            <input type="text" name="line1" class="line" value="0"  
+            style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
+            font-size:32px; padding-left:20px; padding-bottom: 5px;
+            color: #5E2BB8"
+            onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" >
+
+            <h1 style="margin-right:15px;">원</h1>
+
+
+            
+            
+        </div>
+
+        <hr style="margin-top:20px; margin-right:15px;">
+
+        <div class="pbox" style="display:flex; flex-direction: column; margin-top:15px; ">
+            <p style="text-align: right; font-size:14px; margin-right:15px;">유류할증료&제세공과금 포함</p>
+            <p style="text-align: right; font-size:14px; margin-right:15px;"><a href="#">트래블로 마일리지 적립예정  </a></p>
 
         </div>
 
+        
+
+       
+
+        <div class="accordion vertical">
+            <ul>
+                <li>
+                    <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
+                    <label for="checkbox-1" style="text-align: center; color:black;">상품가격 유의안내</label>
+                    <div class="content">
+                        <p id="kk" style="font-size:15px; text-align:left;">※ 유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.</p>
+
+                        <p id="kk" style="font-size:15px; text-align:left;">※ 아동,유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.
+                            <p id="kk" style="font-size:15px; text-align:left;">※ 1인 객실 사용시 가나다 추가요금 발생됩니다. 
+    - 1인 객실 사용료 : 문의</p>   
+    
+
+    <p id="kk" style="font-size:16px; text-align:left;">※ 여행 기간 중 만 2세가 되는 경우 요금 별도 문의 </p>   
+</div>
+                </li>
+                
+               
+                
+            </ul>
+        </div>
+
+
+          <hr style="margin-top:5px; margin-right:15px;">
+        
+
+          <div class="btnbox">
+              <button class="rebtn1">
+                <a href="#">
+                예약하기
+            </a>  </button>
+              
+              <button class="rebtn2">
+                  <a href="#">
+                      <i class="far fa-heart">
+
+                      </i>
+                    </a>
+                </button>
+
+          </div>
 
 
         </div>

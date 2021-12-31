@@ -1,8 +1,7 @@
 body{font-family: "NanumSquare",sans-serif;
-  
-
 line-height:1.8;
 }
+a{text-decoration: none;}
 
 .banner{width:100%; height:500px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
     background-position: center; background-size:cover; background-attachment: fixed; text-align: center;}
@@ -101,7 +100,7 @@ border:none;
 button a {text-decoration: none; color:#fff; }
 
 .localphoto{width:869px; height:500px;}
-.starphoto{width:869px; height:500px; padding-top:100px;}
+.starphoto{width:869px; height:500px; margin-top:100px;}
 
 
 
@@ -115,7 +114,7 @@ button a {text-decoration: none; color:#fff; }
 .shortbox{
     padding-top:20px;
     width:400px;
-     height:700px; 
+     height:950px; 
      padding-left:1.8em !important;
      border:solid 1px black;
      position:sticky;
@@ -213,13 +212,14 @@ button a {text-decoration: none; color:#fff; }
         .tab_content {text-align:center;font-size:0;}
 input[type="radio"] {display:none;} 
 input[type="radio"] + label {display:inline-block; 
-    padding:20px; background:#ae5324; color:#fff;
+    padding:20px; background:#5e2bb8; color:#fff;
      font-size:20px; cursor:pointer;
      font-family: "NanumSquare",sans-serif;
     padding-bottom: 20px;}
 .conbox {display:none}
 
 input[id="tab01"]:checked ~ .con1 {display:block;}
+input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
 
 .age{font-size:13px;}
@@ -240,10 +240,23 @@ input[id="tab03"]:checked ~ .con3 {display:block;}
 justify-content: space-between;}
 
 
-.sumbox{width:100%; height:100px; display:flex;
+.sumbox{width:100%; height:50px; display:flex;
 justify-content: space-between;}
 
-#btn_add{width:50px; height:50px;}
-#btn_add2{width:100px; height:100px;}
 
 
+
+.pbox{width:100%; height:60px; }
+
+.btnbox{ height:60px; 
+margin-right: 15px; margin-top:10px;}
+
+
+.rebtn1{width:60%; height:60px; background-color:#5e2bb8;
+margin-right:20px; font-size:20px;}
+.rebtn2{width:31%; height:60px; background-color: #fff; border:solid 0.5px black;
+ font-size:20px; padding-bottom:5px;}
+
+ .rebtn2 a i {color:#5e2bb8;}
+.rebtn2:hover{border:solid 0.5px #5e2bb8;}
+.rebtn2 i:hover{ transform:translateY(-15%);}
