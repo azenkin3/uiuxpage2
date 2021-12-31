@@ -4,15 +4,14 @@
         
         window.onload = function(){
 
-            
-
-
         $('#plus').click(function(evt) {
             $('.line').each(function(idx, ele) {
                 $(ele).val(parseInt($(ele).val())+3043200);
             });
             evt.preventDefault();
         });
+
+
         $('#minus').click(function(evt) {
             $('.line').each(function(idx, ele) {
                 $(ele).val(parseInt($(ele).val())-3043200);
@@ -21,9 +20,7 @@
                     alert("최소 1명 이상 이어야 합니다.");
                     $("#amounts").val(0); 
                     $(".line").val(0);
-
-                    
-                    
+                  
                 }
 
                    
