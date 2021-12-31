@@ -14,7 +14,7 @@
     
    
     width:100%;
-    padding:10px;
+    padding-top:10px;
     background:#fff;
 }
 .accordion ul {
@@ -43,6 +43,7 @@
     text-transform:uppercase;
     transition: all .2s ease-out;
     transition: all .2s ease-out;
+    width:100%;
 }
 .accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
     
@@ -50,7 +51,7 @@
     
 }
 .accordion .content {
-    margin:20px 0;
+    margin:5px 0;
     width:100%;
     padding:0 10px;
     overflow:hidden;
@@ -79,18 +80,382 @@
     overflow:hidden;
     margin:0 0 1px;
 }
-.vertical ul li label {
-    padding:10px;
-}
-.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
-    border-bottom:0;
-}
+
+
 
 .vertical ul li .content {
     height:0px;
-    border-top:0;
+   
 }
 .vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
-    height:300px;
+    height:200px;
+    border:1px solid #542437;
+}
+
+
+
+
+.accordion2 {
+    font-family:Arial, Helvetica, sans-serif; 
+    margin:0 auto;
+    font-size:14px;
+    
+   
+    width:100%;
+    padding-top:10px;
+    background:#fff;
+}
+.accordion2 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion2 li {
+    margin:0;
+    padding:0;
+}
+.accordion2 [type=radio], .accordion2 [type=checkbox] {
+    display:none;
+}
+.accordion2 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
+}
+.accordion2 ul li label:hover, .accordion2 [type=radio]:checked ~ label, .accordion2 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
+.accordion2 .content2 {
+    margin:5px 0;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.accordion2 p {
+    color:#333;
+    margin:0 0 10px;
+}
+.accordion2 h3 {
+    color:#542437;
+    padding:0;
+    margin:10px 0;
+}
+
+#kko:hover {
+ color:#5e2bb8
+}
+
+/* Vertical */
+.vertical2 ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+
+
+
+.vertical2 ul li .content2 {
+    height:0px;
+   
+}
+.vertical2 [type=radio]:checked ~ label ~ .content2, .vertical2 [type=checkbox]:checked ~ label ~ .content2 {
+    height:200px;
+    border:1px solid #542437;
+}
+
+
+
+
+.accordion6 , .accordion5 , .accordion4  , .accordion3 {
+    font-family:Arial, Helvetica, sans-serif; 
+    margin:0 auto;
+    font-size:14px;
+    
+   
+    width:100%;
+    padding-top:10px;
+    background:#fff;
+}
+.accordion6 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion6 li {
+    margin:0;
+    padding:0;
+}
+
+.accordion5 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion5 li {
+    margin:0;
+    padding:0;
+}
+
+.accordion4 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion4 li {
+    margin:0;
+    padding:0;
+}
+
+.accordion3 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion3 li {
+    margin:0;
+    padding:0;
+}
+
+
+.accordion6 [type=radio], .accordion6 [type=checkbox] {
+    display:none;
+}
+
+.accordion5 [type=radio], .accordion5 [type=checkbox] {
+    display:none;
+}
+
+.accordion4 [type=radio], .accordion4 [type=checkbox] {
+    display:none;
+}
+
+.accordion3 [type=radio], .accordion3 [type=checkbox] {
+    display:none;
+}
+
+.accordion6 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
+}
+
+.accordion5 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
+}
+
+.accordion4 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
+}
+
+.accordion3 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
+}
+
+
+
+.accordion6 ul li label:hover, .accordion6 [type=radio]:checked ~ label, .accordion6 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
+
+.accordion5 ul li label:hover, .accordion5 [type=radio]:checked ~ label, .accordion5 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
+
+.accordion4 ul li label:hover, .accordion4 [type=radio]:checked ~ label, .accordion4 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
+
+.accordion3 ul li label:hover, .accordion3 [type=radio]:checked ~ label, .accordion3 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
+
+.accordion6 .content6  {
+    margin:5px 0;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.accordion5 .content5  {
+    margin:5px 0;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.accordion4 .content4  {
+    margin:5px 0;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.accordion3 .content3  {
+    margin:5px 0;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+#kko:hover {
+ color:#5e2bb8
+}
+
+/* Vertical */
+.vertical6 ul li{
+    overflow:hidden;
+    margin:0 0 1px;
+}
+
+.vertical5 ul li{
+    overflow:hidden;
+    margin:0 0 1px;
+}
+
+.vertical4 ul li{
+    overflow:hidden;
+    margin:0 0 1px;
+}
+
+.vertical3 ul li{
+    overflow:hidden;
+    margin:0 0 1px;
+}
+
+
+
+.vertical6 ul li .content6{
+    height:0px;
+   
+}
+
+.vertical5 ul li .content5{
+    height:0px;
+   
+}
+
+.vertical4 ul li .content4{
+    height:0px;
+   
+}
+
+.vertical3 ul li .content3{
+    height:0px;
+   
+}
+
+
+.vertical6 [type=radio]:checked ~ label ~ .content6, .vertical6 [type=checkbox]:checked ~ label ~ .content6 {
+    height:200px;
+    border:1px solid #542437;
+}
+
+.vertical5 [type=radio]:checked ~ label ~ .content5, .vertical5 [type=checkbox]:checked ~ label ~ .content5 {
+    height:200px;
+    border:1px solid #542437;
+}
+
+.vertical4 [type=radio]:checked ~ label ~ .content4, .vertical4 [type=checkbox]:checked ~ label ~ .content4 {
+    height:200px;
+    border:1px solid #542437;
+}
+
+.vertical3 [type=radio]:checked ~ label ~ .content3, .vertical3 [type=checkbox]:checked ~ label ~ .content3 {
+    height:200px;
     border:1px solid #542437;
 }

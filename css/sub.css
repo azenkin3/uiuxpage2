@@ -215,12 +215,40 @@ input[type="radio"] + label {display:inline-block;
     padding:20px; background:#5e2bb8; color:#fff;
      font-size:20px; cursor:pointer;
      font-family: "NanumSquare",sans-serif;
-    padding-bottom: 20px;}
-.conbox {display:none}
+    padding-bottom: 20px;
+}
+
+input[id*="checkbox"] + label{
+    display:flex;
+    position: relative;
+}
+
+    input[id*="checkbox"] + label em {
+        
+        
+        width:14px;
+        height:10px;
+        
+        background-image: url(../img/spr_com.png);
+        background-position: -162px -41px;
+        background-repeat: no-repeat;
+       display:inline-block;
+       position:absolute;
+       right:10px;
+       top:33px;
+        
+    }
+
+
+
+    input[id*="checkbox"]:checked+label em {background-position: -162px -30px;}
+
+    .conbox {display:none;}
 
 input[id="tab01"]:checked ~ .con1 {display:block;}
 input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
+
 
 .age{font-size:13px;}
 .price{font-size:17px; font-weight: 70  0;}
