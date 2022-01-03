@@ -7,6 +7,8 @@
 */
 
 /* Shared for all accordion types */
+#kk{color:black; font-size:13px;}
+
 .accordion {
     font-family:Arial, Helvetica, sans-serif; 
     margin:0 auto;
@@ -16,6 +18,7 @@
     width:100%;
     padding-top:10px;
     background:#fff;
+    padding-right:15px;
 }
 .accordion ul {
     list-style:none;
@@ -44,6 +47,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+    margin-right:15px;
 }
 .accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
     
@@ -61,15 +65,9 @@
     transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
-.accordion p {
-    color:#333;
-    margin:0 0 10px;
-}
-.accordion h3 {
-    color:#542437;
-    padding:0;
-    margin:10px 0;
-}
+
+
+
 
 #kk:hover {
  color:#5e2bb8
@@ -149,15 +147,8 @@
     transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
-.accordion2 p {
-    color:#333;
-    margin:0 0 10px;
-}
-.accordion2 h3 {
-    color:#542437;
-    padding:0;
-    margin:10px 0;
-}
+
+
 
 #kko:hover {
  color:#5e2bb8
@@ -183,7 +174,7 @@
 
 
 
-.accordion6 , .accordion5 , .accordion4  , .accordion3 {
+.accordion7 , .accordion6 , .accordion5 , .accordion4  , .accordion3 {
     font-family:Arial, Helvetica, sans-serif; 
     margin:0 auto;
     font-size:14px;
@@ -193,11 +184,27 @@
     padding-top:10px;
     background:#fff;
 }
+
+.accordion7 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+
+
+.accordion7 li {
+    margin:0;
+    padding:0;
+}
+
+
 .accordion6 ul {
     list-style:none;
     margin:0;
     padding:0;    
 }
+
+
 .accordion6 li {
     margin:0;
     padding:0;
@@ -233,6 +240,10 @@
     padding:0;
 }
 
+.accordion7 [type=radio], .accordion7 [type=checkbox] {
+    display:none;
+}
+
 
 .accordion6 [type=radio], .accordion6 [type=checkbox] {
     display:none;
@@ -248,6 +259,23 @@
 
 .accordion3 [type=radio], .accordion3 [type=checkbox] {
     display:none;
+}
+
+.accordion7 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
 }
 
 .accordion6 label {
@@ -318,7 +346,11 @@
     width:100%;
 }
 
-
+.accordion7 ul li label:hover, .accordion7 [type=radio]:checked ~ label, .accordion7 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
 
 .accordion6 ul li label:hover, .accordion6 [type=radio]:checked ~ label, .accordion6 [type=checkbox]:checked ~ label {
     
@@ -342,6 +374,18 @@
     
     color:#FFF;
     
+}
+
+.accordion7 .content7  {
+    margin:5px 0;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 
 .accordion6 .content6  {
@@ -397,6 +441,11 @@
 }
 
 /* Vertical */
+
+.vertical7 ul li{
+    overflow:hidden;
+    margin:0 0 1px;
+}
 .vertical6 ul li{
     overflow:hidden;
     margin:0 0 1px;
@@ -417,7 +466,10 @@
     margin:0 0 1px;
 }
 
-
+.vertical7 ul li .content7{
+    height:0px;
+   
+}
 
 .vertical6 ul li .content6{
     height:0px;
@@ -437,6 +489,11 @@
 .vertical3 ul li .content3{
     height:0px;
    
+}
+
+.vertical7 [type=radio]:checked ~ label ~ .content7, .vertical7 [type=checkbox]:checked ~ label ~ .content7 {
+    height:200px;
+    border:1px solid #542437;
 }
 
 

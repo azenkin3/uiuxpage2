@@ -28,6 +28,8 @@
             });
             evt.preventDefault();
         });
+
+
         $('#plus2').click(function(evt) {
             $('.line').each(function(idx, ele) {
                 $(ele).val(parseInt($(ele).val())+2749200);
@@ -75,4 +77,4 @@
        
     
            
-        }
+    }

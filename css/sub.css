@@ -1,4 +1,4 @@
-body{font-family: "NanumSquare",sans-serif;
+body{font-family: 'Noto Sans KR', 'Malgun Gothic', 'AppleSDGothicNeo', Arial, Helvetica, serif, sans-serif;
 line-height:1.8;
 }
 a{text-decoration: none;}
@@ -114,11 +114,12 @@ button a {text-decoration: none; color:#fff; }
 .shortbox{
     padding-top:20px;
     width:400px;
-     height:950px; 
+     height: 800px; 
      padding-left:1.8em !important;
      border:solid 1px black;
      position:sticky;
      top:0;
+     bottom:20px;
      
   
      
@@ -277,7 +278,7 @@ justify-content: space-between;}
 .pbox{width:100%; height:60px; }
 
 .btnbox{ height:60px; 
-margin-right: 15px; margin-top:10px;}
+margin-right: 5px; margin-top:10px;}
 
 
 .rebtn1{width:60%; height:60px; background-color:#5e2bb8;
@@ -335,11 +336,9 @@ margin-right:20px; font-size:20px;}
     padding: 20px;
     box-sizing: border-box;
     position: absolute;
-    display: none;
+   
   }
-  .tap-boxk > .content-boxk > div.active{
-    display: block;
-  }
+  
   .tap-boxk > .content-boxk > .notice-content{
     
     background-color: white;
@@ -348,10 +347,7 @@ margin-right:20px; font-size:20px;}
   
     margin-top:20px;
   }
-  .tap-boxk > .content-boxk > .qna-content{
-    background-color: #5e2bb8;
-    height:300px;
-  }
+ 
 
 
   .tap-boxk > .content-boxk > .notice-content{
@@ -359,4 +355,74 @@ margin-right:20px; font-size:20px;}
   }
 
 
-  table{width:100%; height:200px; }
+
+  th{ background-color:#f7f7f7;}
+  table{width:100%; height:150px; margin-top:30px;
+border-right: none;
+border-left:none;}
+  .productimg{width:100%; height:auto; margin-top:40px;}
+
+  .ok12{width:20%;  height:77px; background-color: #5b6070; }
+  .ok13{width:80%; height:77px; background-color: #f2f4f7;}
+
+  .okh3 {
+      padding-top:20px;
+       color:white; 
+       text-align: left;
+       padding-left:20px;}
+  .okp{
+      padding-top:8px;
+       color:white; 
+       font-weight: normal
+       ;text-align: left;
+       padding-left:20px;
+    }
+
+    .okh4 {
+        padding-top:20px;
+         color:black; 
+         text-align: left;
+         padding-left:20px;
+         font-size:15px;
+        }
+    .okp2{
+        padding-top:8px;
+         color:#888888; 
+         font-weight: normal
+         ;text-align: left;
+         padding-left:20px;
+         font-size:13px;
+      }
+
+
+      th
+      {
+        border-right: 2px solid #ddd;
+          border-bottom: 2px solid #ddd;
+          border-top: 2px solid #ddd;
+    }
+      td
+      {
+          border-bottom: 2px solid #ddd;
+           border-right: 2px solid #ddd;
+        text-align: center;
+        }
+
+
+
+        .guide{padding-top:40px;}
+        .guideh3{padding-top:10px; font-size:13px;}
+        .span2{font-weight: normal; font-size:13px; margin-left:40px;}
+
+
+
+        .meeting{
+            width:100%;
+        height:200px;  
+    border:solid 1px #5e2bb8;
+margin-top:20px;
+}
+
+.meetingbtn {width:100%; height:40px;}
+
+.metbtn{width:100px; height:30px; color:black; background-color:#888888; float:right;}
