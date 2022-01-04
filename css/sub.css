@@ -12,14 +12,14 @@ a{text-decoration: none;}
 
 #topbox{
     width:100%; 
-    height:5500px;
+    height:6000px;
      
      display:flex;
      }
 
 #fullbox{
     width:1320px; 
-    height:5500px;  
+    height:6000px;  
     margin:0 auto; 
     display:flex;
     flex-direction: row;
@@ -27,7 +27,7 @@ a{text-decoration: none;}
 }
 
 .longbox{width:869px; 
-    height:5500px; 
+    height:6000px; 
     
     margin-left:auto; 
     margin-right: auto; 
@@ -102,7 +102,43 @@ button a {text-decoration: none; color:#fff; }
 .localphoto{width:869px; height:500px;}
 .starphoto{width:869px; height:500px; margin-top:100px;}
 
+.btnbox2{width:100%; height:50px;display:flex; justify-content: space-between;}
+.btnbox2 button { color:black;
+    background-color:#888888; 
+    float:right;
+    text-align:center;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+margin-top:5px;}
 
+.dddtbox{width:100%; height:100px;  display:flex; margin-top:15px;
+font-size:13px;}
+
+.ddbox{width:20%; height:100px; }
+.dtbox{width:80%; height:100px; }
+
+.dddtbox2{width:100%; height:30px;  display:flex; font-size:13px;}
+
+.ddbox2{width:20%; height:30px; }
+.dtbox2{width:80%; height:30px; }
+
+.dddtbox3{width:100%; height:30px; display:flex; font-size:13px;}
+
+.ddbox3{width:20%; height:30px; }
+.dtbox3{width:80%; height:30px; }
+
+.productprice{width:100%; height:300px;}
+
+.prdpri{width:70%; height:100px;   font-size:12px;}
+
+.prdpri2{width:30%; height:100px; font-size:13px;}
+
+.prdprice{display:flex;}
+
+.downpri{font-size:11px;}
+
+.pribold{font-weight: bold; padding:none;}
 
 /* short box */
 /* short box */
@@ -249,7 +285,7 @@ input[id*="checkbox"] + label{
 input[id="tab01"]:checked ~ .con1 {display:block;}
 input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
-
+input[id="tab04"]:checked ~ .con1 {display:block;}
 
 .age{font-size:13px;}
 .price{font-size:17px; font-weight: 70  0;}
@@ -342,7 +378,7 @@ margin-right:20px; font-size:20px;}
   .tap-boxk > .content-boxk > .notice-content{
     
     background-color: white;
-    height:300px;
+    height:200px;
     border:solid 0.5px black;
   
     margin-top:20px;
@@ -357,7 +393,7 @@ margin-right:20px; font-size:20px;}
 
 
   th{ background-color:#f7f7f7;}
-  table{width:100%; height:150px; margin-top:30px;
+  table{width:100%; height:150px; margin-top:15px;
 border-right: none;
 border-left:none;}
   .productimg{width:100%; height:auto; margin-top:40px;}
@@ -423,6 +459,22 @@ border-left:none;}
 margin-top:20px;
 }
 
-.meetingbtn {width:100%; height:40px;}
+.meetingbtn {width:100%; height:40px; padding-top:10px;}
 
-.metbtn{width:100px; height:30px; color:black; background-color:#888888; float:right;}
+.metbtn{
+    width:100px;
+     
+      color:black;
+       background-color:#888888; 
+       float:right;
+       text-align:center;
+       padding-bottom: 10px;
+       color:white;
+       font-weight:bold;
+    }
+
+
+
+dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
+
+.meetingbtn p { padding-left:10px;}
