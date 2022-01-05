@@ -12,14 +12,14 @@ a{text-decoration: none;}
 
 #topbox{
     width:100%; 
-    height:6000px;
+    height:6700px;
      
      display:flex;
      }
 
 #fullbox{
     width:1320px; 
-    height:6000px;  
+    height:6700px;  
     margin:0 auto; 
     display:flex;
     flex-direction: row;
@@ -27,7 +27,7 @@ a{text-decoration: none;}
 }
 
 .longbox{width:869px; 
-    height:6000px; 
+    height:6700px; 
     
     margin-left:auto; 
     margin-right: auto; 
@@ -88,7 +88,7 @@ height:600px;
 
 .bigphoto{width:100%; height:1000px;}
 
-button{color:#Fff; background-color: #ff414d; border-radius: 5px;
+button{color:#Fff; background-color: #AE5324; border-radius: 5px;
 
 padding:10px 10px;
 margin-right:7px;
@@ -174,7 +174,7 @@ font-size:13px;}
        
     }
 
-    .grad3 h1 {color:20px; }
+    .grad3 h1 {font-size:20px; }
 
     
 
@@ -249,7 +249,7 @@ font-size:13px;}
         .tab_content {text-align:center;font-size:0;}
 input[type="radio"] {display:none;} 
 input[type="radio"] + label {display:inline-block; 
-    padding:20px; background:#5e2bb8; color:#fff;
+    padding:20px; background:#AE5324; color:#fff;
      font-size:20px; cursor:pointer;
      font-family: "NanumSquare",sans-serif;
     padding-bottom: 20px;
@@ -317,13 +317,13 @@ justify-content: space-between;}
 margin-right: 5px; margin-top:10px;}
 
 
-.rebtn1{width:60%; height:60px; background-color:#5e2bb8;
+.rebtn1{width:60%; height:60px; background-color:#AE5324;
 margin-right:20px; font-size:20px;}
 .rebtn2{width:31%; height:60px; background-color: #fff; border:solid 0.5px black;
  font-size:20px; padding-bottom:5px;}
 
- .rebtn2 a i {color:#5e2bb8;}
-.rebtn2:hover{border:solid 0.5px #5e2bb8;}
+ .rebtn2 a i {color:#AE5324;}
+.rebtn2:hover{border:solid 0.5px #AE5324;}
 .rebtn2 i:hover{ transform:translateY(-15%);}
 
 
@@ -455,7 +455,7 @@ border-left:none;}
         .meeting{
             width:100%;
         height:200px;  
-    border:solid 1px #5e2bb8;
+    border:solid 1px #AE5324;
 margin-top:20px;
 }
 
@@ -478,3 +478,20 @@ margin-top:20px;
 dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
 
 .meetingbtn p { padding-left:10px;}
+
+
+
+.tooltip {
+    
+    width: 1em;
+    border-radius: 1em;
+   
+    
+  }
+
+  .spank1 i {padding-left:10px;}
+
+
+  .price{font-weight:bold;}
+
+  
