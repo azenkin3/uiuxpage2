@@ -438,14 +438,15 @@ border-left:none;}
 
       th
       {
-        border-right: 2px solid #ddd;
-          border-bottom: 2px solid #ddd;
-          border-top: 2px solid #ddd;
+        border-right: 1px solid #ddd;
+          border-bottom: 1px solid #ddd;
+          border-top: 1px solid #ddd;
     }
       td
       {
-          border-bottom: 2px solid #ddd;
-           border-right: 2px solid #ddd;
+        border-top: 1px solid#ddd;
+          border-bottom: 1px solid #ddd;
+           border-right: 1px solid #ddd;
         text-align: center;
         }
 
