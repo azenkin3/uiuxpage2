@@ -57,7 +57,7 @@
 .accordion .content {
     margin:5px 0;
     width:100%;
-    padding:0 10px;
+    padding:0 10px;                                         
     overflow:hidden;
     text-align: left;
     font-size:12px;
@@ -167,7 +167,7 @@
    
 }
 .vertical2 [type=radio]:checked ~ label ~ .content2, .vertical2 [type=checkbox]:checked ~ label ~ .content2 {
-    height:200px;
+    height:100px;
     border:1px solid #542437;
 }
 
@@ -379,6 +379,7 @@
 .accordion7 .content7  {
     margin:5px 0;
     width:100%;
+    height:100px;
     padding:0 10px;
     overflow:hidden;
     text-align: left;
@@ -391,6 +392,7 @@
 .accordion6 .content6  {
     margin:5px 0;
     width:100%;
+    height:100px;
     padding:0 10px;
     overflow:hidden;
     text-align: left;
@@ -403,6 +405,7 @@
 .accordion5 .content5  {
     margin:5px 0;
     width:100%;
+    height:100px;
     padding:0 10px;
     overflow:hidden;
     text-align: left;
@@ -427,6 +430,7 @@
 .accordion3 .content3  {
     margin:5px 0;
     width:100%;
+    height:100px;
     padding:0 10px;
     overflow:hidden;
     text-align: left;
@@ -492,27 +496,27 @@
 }
 
 .vertical7 [type=radio]:checked ~ label ~ .content7, .vertical7 [type=checkbox]:checked ~ label ~ .content7 {
-    height:200px;
+    height:100px;
     border:1px solid #542437;
 }
 
 
 .vertical6 [type=radio]:checked ~ label ~ .content6, .vertical6 [type=checkbox]:checked ~ label ~ .content6 {
-    height:200px;
+    height:100px;
     border:1px solid #542437;
 }
 
 .vertical5 [type=radio]:checked ~ label ~ .content5, .vertical5 [type=checkbox]:checked ~ label ~ .content5 {
-    height:200px;
+    height:100px;
     border:1px solid #542437;
 }
 
 .vertical4 [type=radio]:checked ~ label ~ .content4, .vertical4 [type=checkbox]:checked ~ label ~ .content4 {
-    height:200px;
+    height:100px;
     border:1px solid #542437;
 }
 
 .vertical3 [type=radio]:checked ~ label ~ .content3, .vertical3 [type=checkbox]:checked ~ label ~ .content3 {
-    height:200px;
+    height:100px;
     border:1px solid #542437;
 }

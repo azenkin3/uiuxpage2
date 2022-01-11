@@ -1,5 +1,5 @@
 .con2{width:869px; height:2200px;}
-.con3{width:869px; height:3000px;}
+.con3{width:869px; height:2500px;}
 
 .tap-box2{
     width:100%;
@@ -90,52 +90,52 @@
 }
 .boxa {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photoa {width:40%; height:250px; background-position:center; background-size:cover;  }
-.texta {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.texta {width: 45%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 
 #wrapb {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
 margin-top:50px;}
 .boxb {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photob {width:40%; height:250px; background-position:center; background-size:cover;  }
-.textb {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.textb {width: 45%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 #wrapc {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxc {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photoc {width:40%; height:250px; background-position:center; background-size:cover; }
-.textc {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.textc {width: 45%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 #wrapd {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxd {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photod {width:40%; height:250px; background-position:center; background-size:cover; }
-.textd {width: 45%; padding-top:20px; padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+.textd {width: 45%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
 
 
 #wrape {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photoe {width:40%; height:250px; background-position:center; background-size:cover; }
-.texte {width: 45%; padding-top:20px; padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+.texte {width: 45%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
 
 #wrape {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photoe {width:40%; height:250px; background-position:center; background-size:cover; }
-.texte {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.texte {width: 45%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 
 #wrapf {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxf {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photof {width:40%; height:250px; background-position:center; background-size:cover; }
-.textf {width: 45%; padding-top:20px; padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+.textf {width: 45%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
 
 #wrapg {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxg {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photog {width:40%; height:250px; background-position:center; background-size:cover; }
-.textg {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.textg {width: 45%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 
 

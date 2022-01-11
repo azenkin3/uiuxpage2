@@ -208,21 +208,15 @@ font-size:13px;}
 
     .instabox{
         width:439px;
-         height:400px; 
-        
-        
-      
-          
+         height:400px;     
     }
+
     .instabox > article {
          width:130px;
           height:130px;
          
           margin-right:10px;
           float:left;
-          
-          
-
         } 
 
      .instabox > article img {
@@ -238,13 +232,9 @@ font-size:13px;}
         {
             width:100%;
             height:400px;
-           
-
-
         }
 
         .grad2 > ul > li {
-
             line-height: 2.0;
         }
 
@@ -356,7 +346,7 @@ margin-right:20px; font-size:20px;}
   .tap-boxk > .btn-box > .notice-btn{
     background-color: white;
     border:solid 0.5px black;
-    border-bottom:none;
+    
     
     
   }

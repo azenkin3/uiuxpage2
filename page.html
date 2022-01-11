@@ -7,8 +7,22 @@
     <title>Document</title>
     <style>
         .airs{width:100%; height:200px; background-color:#ddd;}
-        .time{display:flex; justify-content: space-between;}
+        .time{display:flex; justify-content: space-between; font-size:12px; color:#666666}
+        .dtboxx{text-align: center; font-size:12px;}
+        .hrair{flex-direction: row; flex-grow: 1; width:50%; display:flex; margin:0 auto; color:#ae5324;}
+        hr{width:100%;}
+        .airart{height:80px;  COLOR:black}
+        .airair{width:58%; height:80px;  display:flex;
+        justify-content: space-between; margin:0 auto;}
+        .airid{color:#ae5324;}
+        .hrair hr{color:#ae5324;}
+
+        body{font-family: 'Noto Sans KR', 'Malgun Gothic', 'AppleSDGothicNeo', Arial, Helvetica, serif, sans-serif;}
     </style>
+     <script src="https://kit.fontawesome.com/29e4618e1b.js" crossorigin="anonymous"></script>
+
+     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+ 
 </head>
 <body>
    <h2>출국 상세 일정</h2>
@@ -18,7 +32,25 @@
    </div>
 
    <div class="airs">
+    <div class="dtboxx">
+    <img style="width:26px; height:17px; font-weight:bold; margin-top:15px;" src="img/KE.png"> 대한항공</p>
+    <p> 07시간 55분<span class="airid">KE0053</span></p>
+    <div class="hrair"><i class="far fa-circle"></i><hr><i class="far fa-circle"></i></div>
 
+    <div class="airair">
+
+        <article class="airart">
+            <p style="font-size:18px; font-weight: bold;">20:35</p>
+            <p style="color:#666666">2022.03.01(화)</p>
+            <p>서울 ICN 출발</p>
+        </article>
+        <article class="airart">
+         <p style="font-size:18px; font-weight: bold;">09:30</p>
+         <p style="color:#666666">2022.03.01(화)</p>
+         <p>서울 ICN 도착</p>
+        </article>
+    </div>
+    </div>
    </div>
    
    <h2>입국 상세 일정</h2>
@@ -29,6 +61,29 @@
    </div>
 
    <div class="airs">
+    <div class="dtboxx">
+        
+            <img style="width:26px; height:17px; font-weight:bold;  margin-top:15px;" src="img/KE.png"> 대한항공</p>
+            <p> 11시간 00분 <span class="airid">KE0053</span></p>
+            <div class="hrair"><i class="far fa-circle"></i><hr><i class="far fa-circle"></i></div>
+       
+           <div class="airair">
+               <article class="airart">
+                   <p style="font-size:18px; font-weight: bold;">11:45</p>
+                   <p style="color:#666666">2022.03.05(토)</p>
+                   <p>호눌롤루 HNL 출발</p>
+               </article>
+               <article class="airart">
+                <p style="font-size:18px; font-weight: bold;">17:45</p>
+                <p style="color:#666666">2022.03.06(일)</p>
+                <p>서울 ICN 도착</p>
+               </article>
+
+           </div>
+        
+
+
+       </div>
 
    </div>
 </body>
