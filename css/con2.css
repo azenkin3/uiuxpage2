@@ -1,4 +1,5 @@
-.con2{width:869px; height:3500px;}
+.con2{width:869px; height:2200px;}
+.con3{width:869px; height:3000px;}
 
 .tap-box2{
     width:100%;
@@ -75,7 +76,8 @@
   .boxa2 > .conart { width:100px; height:100px; 
     margin: 10px 12px; float:left; display:flex; flex-direction: column;
     justify-content: center; font-size:14px; text-align: center;
-    color:black; font-weight: bold; border:solid 0.5px #ddd
+    color:#AE5324; font-weight: bold; border:solid 0.5px #ddd
+    
 }
 
   .boxa3{width:100%; height:300px; }
@@ -135,37 +137,6 @@ margin-top:50px;}
 .photog {width:40%; height:250px; background-position:center; background-size:cover; }
 .textg {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
-#wraph {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
-    margin-top:50px;}
-.boxh {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photoh {width:40%; height:250px; background-position:center; background-size:cover; }
-.texth {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
-
-#wrapi {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
-    margin-top:50px;}
-.boxi {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photoi {width:40%; height:250px; background-position:center; background-size:cover; }
-.texti {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
-
-
-
-#wrapo {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
-    margin-top:50px;}
-.boxo {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photoo {width:40%; height:250px; background-position:center; background-size:cover; }
-.texto {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
-
-#wrapn {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
-    margin-top:50px;}
-.boxn {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photon {width:40%; height:250px; background-position:center; background-size:cover; }
-.textn {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
-
-#wrapm {width:1000px; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
-    margin-top:50px;}
-.boxm {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photom {width:40%; height:250px; background-position:center; background-size:cover; }
-.textm {width: 45%; padding-top:20px; padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 
 .conart > img { width:50px; height:50px; background-color:white;
