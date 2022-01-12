@@ -23,45 +23,45 @@
 #wrapb {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
 margin-top:50px;}
 .boxb {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photob {width:60%; height:250px; background-position:center; background-size:cover;  }
-.textb {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.photob {width:40%; height:250px; background-position:center; background-size:cover;  }
+.textb {width: 60%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 #wrapc {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxc {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photoc {width:60%; height:250px; background-position:center; background-size:cover; }
-.textc {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
+.photoc {width:40%; height:250px; background-position:center; background-size:cover; }
+.textc {width: 60%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 #wrapd {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxd {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photod {width:60%; height:250px; background-position:center; background-size:cover; }
-.textd {width: 40%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+.photod {width:40%; height:250px; background-position:center; background-size:cover; }
+.textd {width: 60%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
 
-
-#wrape {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
-    margin-top:50px;}
-.boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photoe {width:60%; height:250px; background-position:center; background-size:cover; }
-.texte {width: 40%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
 
 #wrape {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photoe {width:40%; height:250px; background-position:center; background-size:cover; }
-.texte {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:12px; }
+.texte {width: 60%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+
+#wrape {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photoe {width:40%; height:250px; background-position:center; background-size:cover; }
+.texte {width: 60%;  padding-left: 20px; text-align: left; color:black; font-size:12px; }
 
 
 #wrapf {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxf {width:100%; height:250px;  display: flex; text-decoration-line: none; }
 .photof {width:40%; height:250px; background-position:center; background-size:cover; }
-.textf {width: 45%;  padding-left: 20px; text-align: left;  color:black; font-size:12px;}
+.textf {width: 60%;  padding-left: 20px; text-align: left;  color:black; font-size:12px;}
 
 #wrapg {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
     margin-top:50px;}
 .boxg {width:100%; height:250px;  display: flex; text-decoration-line: none; }
-.photog {width:50%; height:250px; background-position:center; background-size:cover; }
-.textg {width: 50%;  padding-left: 20px; text-align: left; color:black; font-size:12px; }
+.photog {width:40%; height:250px; background-position:center; background-size:cover; }
+.textg {width: 60%;  padding-left: 20px; text-align: left; color:black; font-size:12px; }
 
 }
