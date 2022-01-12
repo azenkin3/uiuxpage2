@@ -1,0 +1,67 @@
+
+@media screen and (max-width:801px){
+
+    .shortbox{display:none;}
+
+#wrapa {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+}
+.boxa {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photoa {width:60%; height:250px; background-position:center; background-size:cover;  }
+.texta {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
+
+
+.poster{height:600px;}
+.slidewrap{width:100%;}
+.slide li img{width:100%;}
+.bigphotoP{width:100%;}
+.localphoto{width:100%;}
+.starphoto{width:100%;}
+.starphoto2{width:100%;}
+
+#pxhd{font-size:27px;}
+.pxod{font-size:13px;}
+#wrapb {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+margin-top:50px;}
+.boxb {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photob {width:60%; height:250px; background-position:center; background-size:cover;  }
+.textb {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
+
+#wrapc {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxc {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photoc {width:60%; height:250px; background-position:center; background-size:cover; }
+.textc {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
+
+#wrapd {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxd {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photod {width:60%; height:250px; background-position:center; background-size:cover; }
+.textd {width: 40%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+
+
+#wrape {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photoe {width:60%; height:250px; background-position:center; background-size:cover; }
+.texte {width: 40%;  padding-left: 20px; text-align: left;  color:black; font-size:13px;}
+
+#wrape {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxe {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photoe {width:40%; height:250px; background-position:center; background-size:cover; }
+.texte {width: 40%;  padding-left: 20px; text-align: left; color:black; font-size:12px; }
+
+
+#wrapf {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxf {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photof {width:40%; height:250px; background-position:center; background-size:cover; }
+.textf {width: 45%;  padding-left: 20px; text-align: left;  color:black; font-size:12px;}
+
+#wrapg {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
+    margin-top:50px;}
+.boxg {width:100%; height:250px;  display: flex; text-decoration-line: none; }
+.photog {width:50%; height:250px; background-position:center; background-size:cover; }
+.textg {width: 50%;  padding-left: 20px; text-align: left; color:black; font-size:12px; }
+
+}

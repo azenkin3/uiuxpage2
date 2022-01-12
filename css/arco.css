@@ -174,7 +174,7 @@
 
 
 
-.accordion7 , .accordion6 , .accordion5 , .accordion4  , .accordion3 {
+.accordion8 , .accordion7 , .accordion6 , .accordion5 , .accordion4  , .accordion3 {
     font-family:Arial, Helvetica, sans-serif; 
     margin:0 auto;
     font-size:14px;
@@ -183,6 +183,18 @@
     width:100%;
     padding-top:10px;
     background:#fff;
+}
+
+.accordion8 ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+
+
+.accordion8 li {
+    margin:0;
+    padding:0;
 }
 
 .accordion7 ul {
@@ -240,6 +252,10 @@
     padding:0;
 }
 
+.accordion8 [type=radio], .accordion8 [type=checkbox] {
+    display:none;
+}
+
 .accordion7 [type=radio], .accordion7 [type=checkbox] {
     display:none;
 }
@@ -259,6 +275,23 @@
 
 .accordion3 [type=radio], .accordion3 [type=checkbox] {
     display:none;
+}
+
+.accordion8 label {
+    display:block;
+    font-size:16px;
+    line-height:16px;
+    margin-right:15px;
+    
+    border:1px solid #542437;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width:100%;
 }
 
 .accordion7 label {
@@ -344,8 +377,17 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+
+
+
 }
 
+
+.accordion8 ul li label:hover, .accordion8 [type=radio]:checked ~ label, .accordion8 [type=checkbox]:checked ~ label {
+    
+    color:#FFF;
+    
+}
 .accordion7 ul li label:hover, .accordion7 [type=radio]:checked ~ label, .accordion7 [type=checkbox]:checked ~ label {
     
     color:#FFF;
@@ -374,6 +416,19 @@
     
     color:#FFF;
     
+}
+
+.accordion8 .content8  {
+    margin:5px 0;
+    width:100%;
+    height:100px;
+    padding:0 10px;
+    overflow:hidden;
+    text-align: left;
+    font-size:12px;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 
 .accordion7 .content7  {
@@ -446,6 +501,11 @@
 
 /* Vertical */
 
+.vertical8 ul li{
+    overflow:hidden;
+    margin:0 0 1px;
+}
+
 .vertical7 ul li{
     overflow:hidden;
     margin:0 0 1px;
@@ -468,6 +528,11 @@
 .vertical3 ul li{
     overflow:hidden;
     margin:0 0 1px;
+}
+
+.vertical8 ul li .content8{
+    height:0px;
+   
 }
 
 .vertical7 ul li .content7{
@@ -493,6 +558,11 @@
 .vertical3 ul li .content3{
     height:0px;
    
+}
+
+.vertical8 [type=radio]:checked ~ label ~ .content8, .vertical8 [type=checkbox]:checked ~ label ~ .content8 {
+    height:400px;
+    border:1px solid #542437;
 }
 
 .vertical7 [type=radio]:checked ~ label ~ .content7, .vertical7 [type=checkbox]:checked ~ label ~ .content7 {

@@ -3,6 +3,9 @@ line-height:1.8;
 }
 a{text-decoration: none;}
 
+#pxhd{color:#1a1a1a; font-size:35px; text-align: left; font-weight: 600; padding-left: 15px;}
+.pxod{color:#1d1d1d; padding-bottom: 10px; padding-top: 10px; font-size:16px; padding-left: 15px;}
+
 .airline{width:100%;display:flex; }
 .airid{color:#AE5324;}
 
@@ -38,6 +41,9 @@ a{text-decoration: none;}
     margin-right: auto; 
 }
 
+
+.mobbox{display:none; width:869px; height:500px; background-color: black; color:white;}
+.airdiv{width:100%; height:150px; background-color: yellow;}
 .poster{width:100%; height:1200px; opacity:0.8; padding-top:25px;}
 
 #longh3 {
@@ -505,3 +511,9 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
     }
 
   
+
+    #noticebox{width:869px; height:550px; border:solid 1px #ae5324; margin-top:30px;  }
+#noticebox p {font-size: 13px; margin-top:30px;}
+    .ntbox2{background-color: #ae5324; color:white; height:10%; font-size:22px;}
+
+    .ntbbox3{background-color: #ddd; color:black; height:20%; }
