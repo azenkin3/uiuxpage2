@@ -110,10 +110,40 @@
 
                
                 <div class="mobbox">
-                    <h3>와이키이 6일 #호놀롤루 #시내중심 #자유여행 #쉐라톤/h3>
+                    <h3 style="font-size:16px;">와이키이 6일 #호놀롤루 #시내중심 #자유여행 #쉐라톤</h3>
                         <div class="airdiv">
+                            <div class="airartbox">
+                                <article class="airart">
+                                <h3 style="padding-top:13px;">02.02 (수) 09:00</h3>
+                                <p class="leftp">대한항공</p>
+                                <p class="leftp">TW0307</p>
+                                </article>
+                                <article class="airart">
+                                <p class="centerp">직항 <br> 4박6일</p>
+                                </article>
+                                <article class="airart">
+                                    <h3 style="padding-top:13px;">02.02 (수) 09:00</h3>
+                                    <p class="leftp2">대한항공</p>
+                                    <p class="leftp2">TW0307</p>
+                                </article>
+                            </div>
+
                             
-                        </div>
+                                <a class="btn js-click-modal">항공 상세 일정</a>
+                                <div class="modal">
+                                  <div class="header">항공 상세 일정표
+                                  </div>
+                                  <div class="body"><p>And here is all its contents.</p>
+                                    <a class="btn js-close-modal">Close</a>
+                                </div>
+                                </div>
+                              </div>
+                         
+
+                            <p><i class="far fa-user"></i> 예약: 7명 / 14명 (최소출발 : 성인 1명)</p>
+                            <p><i class="fas fa-map-marker-alt"></i> 호놀룰루(4)</p>
+
+                       
 
                         <div class="accordion8 vertical8">
                             <ul>
@@ -123,13 +153,13 @@
     
     
                                         <article class="ok12">
-                                            <h3 class="okh3"> 6일차 </h3>
-                                            <p class="okp"> 03/06(토) </p>
+                                            <h3 class="okh3">  </h3>
+                                            <p class="okp">  </p>
                                         </article>
     
                                         <article class="ok13">
-                                            <h3 class="okh4"> 인천 </h3>
-                                            <p class="okp2"> 상세내용을 확인해보세요 </p>
+                                            <h3 class="okh4">  </h3>
+                                            <p class="okp2"> </p>
                                         </article>
     
                                         <em></em>
@@ -152,6 +182,7 @@
                             </ul>
                         </div> 
                 </div>
+            
 
 
 
@@ -1348,6 +1379,13 @@
     
   });
 
+  $('.js-click-modal').click(function(){
+  $('.mobbox').addClass('modal-open');
+});
+
+$('.js-close-modal').click(function(){
+  $('.mobbox').removeClass('modal-open');
+});
     </script>
 
 </body>
