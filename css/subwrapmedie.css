@@ -10,7 +10,7 @@
 .texta {width: 60%;  padding-left: 20px; text-align: left; color:black; font-size:13px; }
 
 
-.poster{height:600px;}
+.poster{display:none;}
 .slidewrap{width:100%;}
 .slide li img{width:100%;}
 .bigphotoP{width:100%;}
