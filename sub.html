@@ -191,18 +191,18 @@
                                             </div>
                                          
                                  
-                                 
+                                            
                                         </div>
                                  
                                     </div>
-                                    <a class="btn13 js-close-modal">Close</a>
+                                    <a class="btn15 js-close-modal">Close</a>
                                 </div>
                                 </div>
                            
                          
 
-                            <p><i class="far fa-user"></i> 예약: 7명 / 14명 (최소출발 : 성인 1명)</p>
-                            <p><i class="fas fa-map-marker-alt"></i> 호놀룰루(4)</p>
+                            <p style="font-size:13px;"><i class="far fa-user"></i> 예약: 7명 / 14명 (최소출발 : 성인 1명)</p>
+                            <p style="font-size:13px;"><i class="fas fa-map-marker-alt"></i> 호놀룰루(4)</p>
 
                        
 
@@ -214,39 +214,101 @@
     
     
                                         <article class="ok12">
-                                            <h3 class="okh3">  </h3>
-                                            <p class="okp">  </p>
+                                            <h3 class="okh3"> 상품가격  </h3>
+                                            <p class="okp">  
+                                            
+                                            </p>
+                                            <em></em>
                                         </article>
     
                                         <article class="ok13">
-                                            <h3 class="okh4">  </h3>
-                                            <p class="okp2"> </p>
+                                            <div class="sumbox">
+
+                                            
+                                
+                                                <input type="text" name="line1" class="line" value="0" style="width:180px; height:45px; margin-right:15px; margin-top:15px; border:none; text-align: center;
+                                            font-size:32px; padding-left:20px; padding-bottom: 5px; background-color: #ffffff;
+                                            color:black;" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
+                                
+                                                <h1 style="margin-right:15px; margin-top:30px; color:black;">원</h1>
+                                
+                                
+                                
+                                
+                                            </div>
                                         </article>
     
-                                        <em></em>
+                                        
                                     </label>
                                     <div class="content8">
-                                        <div class="dtboxx">
+                                        <div class="adultbox">
                                             <p>
-                                                4박6일 <img style="width:26px; height:17px;" src="img/KE.png"> 대한항공</p>
-                                                <p> 07시간 55분 소요 <span class="airid">KE0053</span></p>
-                                                
-                                                <p> 출발 : 2022.03.01(화) 20:35  <i class="fas fa-long-arrow-alt-right"></i> 2022.03.01(화) 09:30 KE0053총 07시간 55분 소요 </p>
-                                                <p> 도착 : 2022.03.05(토) 11:45  <i class="fas fa-long-arrow-alt-right"></i> 2022.03.06(일) 17:45 KE0054총 11시간 00분 소요
+                                                <span title=" 성인 (만 12세 이상)" class="tooltip"></span><span class="spank1">성인 1명</span><br></span>
+                                                <span class="price">3,043,200원</span><br>
+                                                <span class="agespan">만 12세 이상</span> <br>
+                                                <span class="addprice">유류할증료 75,000원 제세공과금 74,000원 포함</span>
                                             </p>
-                                           </div>
-                                    </div>
-                                </li>
-    
-    
-    
-                            </ul>
-                        </div> 
+                            
+                                            <form class="adultform" style="margin-right:15px; margin-top:10px;">
+                                                <input type="button" id=minus a href="#add_one" value=- style="width:50px; height:50px;"
+                                                    onclick="javascript:this.form.amounts.value--;">
+                            
+                                                <input type=text id=amounts value=0 style="width:50px; height:50px;
+                                                text-align:center;">
+                            
+                                                <input type="button" id=plus a href="#add_one" value=+ style="width:50px; height:50px;"
+                                                    onclick="javascript:this.form.amounts.value++;">
+                                            </form>
+
+                                        </div>
+
+                                            <div class="youngbox">
+                                                <p>
+                                                    <span class="toop" title= "아동 ( 만12세 미만 )  " class="tooltip"><span class="spank1">소인 1명<i class="far fa-question-circle"></i></span> <br></span>
+                                                    <span class="price">2,749,200원</span><br>
+                                                    <span class="agespan">(만 12세 미만)</span><br>
+                                                <span class="addprice">유류할증료 75,000원 제세공과금 74,000원 포함</span>
+                                                </p>
+                                
+                                
+                                                <form class="youngform" style="margin-right:15px; margin-top:10px;">
+                                                    <input type="button" id=minus2 a href="#add_one" value=- style="width:50px; height:50px;"
+                                                        onclick="javascript:this.form.amountss.value--;">
+                                                    <input type=text id=amountss value=0 style="width:50px; height:50px; text-align:center;">
+                                                    <input type="button" id=plus2 a href="#add_one" value=+ style="width:50px; height:50px;"
+                                                        onclick="javascript:this.form.amountss.value++;">
+                                                </form>
+                                
+                                
+                                            </div>
+                                
+                                
+                                            <div class="kidsbox">
+                                                <p>
+                                                    <span title=" 유아 (만2세 미만)" class="tooltip"><span class="spank1"> 1명<i class="far fa-question-circle"></i> </span><br></span>
+                                                    <span class="price">558,600원</span><br>
+                                                    <span class="agespan">(만 2세 미만)</span>
+                                                
+                                                </p>
+                                
+                                
+                                                <form class="kidsform" style="margin-right:15px; margin-top:10px;">
+                                                    <input type="button" id=minus3 a href="#add_one" value=- style="width:50px; height:50px;"
+                                                        onclick="javascript:this.form.amountsss.value--;">
+                                                    <input type=text id=amountsss value=0 style="width:50px; height:50px; text-align:center;">
+                                                    <input type="button" id=plus3 a href="#add_one" value=+ style="width:50px; height:50px;"
+                                                        onclick="javascript:this.form.amountsss.value++;">
+                                                </form>
+                            
+                            
+                                       
                 </div>
             
-            
+            </div>
 
+        </div>
 
+    </div>
 
 
 
