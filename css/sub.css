@@ -18,7 +18,7 @@ a{text-decoration: none;}
 .content > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
 
 
-.tag02{width:4.5rem; height:1.5rem; border:solid 1px black; color:black; text-align: center;}
+.tag02{width:4.5rem; height:1.5rem; border:solid 1px black; color:black;  font-size:12px; text-align: center; margin-left:15px;}
 .aal { float:right;}
 
 #topbox{
@@ -531,14 +531,14 @@ border-right: none;
 border-left:none;}
   .productimg{width:100%; height:auto; margin-top:40px;}
 
-  .ok12{width:20%;  height:77px; background-color: #5b6070; }
+  .ok12{width:20%;  height:77px; background-color: #f2f4f7;}
   .ok13{width:80%; height:77px; background-color: #f2f4f7;}
 
   .okh3 {
       padding-top:20px;
-       color:white; 
+       color:black; 
        text-align: left;
-       padding-left:20px;}
+       padding-left:25px;}
   .okp{
       padding-top:8px;
        color:white; 
