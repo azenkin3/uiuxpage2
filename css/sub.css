@@ -18,6 +18,9 @@ a{text-decoration: none;}
 .content > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
 
 
+.tag02{width:4.5rem; height:1.5rem; border:solid 1px black; color:black; text-align: center;}
+.aal { float:right;}
+
 #topbox{
     width:100%; 
     height:auto;
@@ -31,7 +34,7 @@ a{text-decoration: none;}
     margin:0 auto; 
     display:flex;
     flex-direction: row;
-    padding-top:20px;
+    
 }
 
 .longbox{width:869px; 
@@ -52,10 +55,11 @@ justify-content: space-between; margin:0 auto;}
 .airid{color:#ae5324;}
 .hrair hr{color:#ae5324;}
 
-.mobbox{width:869px; height:750px; background-color: black; color:white; }
-.airdiv{width:95%; height:130px; 
+.mobbox{width:869px; height:auto; color:white; }
+.airdiv{width:95%; height:150px; 
    border-radius:1rem;
- margin:0 auto; } 
+ margin:0 auto; 
+border:solid 1px black;} 
 .poster{width:100%; height:1200px; opacity:0.8; padding-top:25px;}
 
 .airartbox{width:100%; background-color: white; height:70%; display:flex; border-top-left-radius:1rem; border-top-right-radius:1rem; 
@@ -69,6 +73,10 @@ justify-content:space-between }
 .leftp2{text-align: right; padding-right:10px;  font-size:13px;
   color:#666666}
 .centerp{padding-top:20px;}
+
+
+#review
+
 
 .airartbtn{width:100%; height:30%;}
 .mobbox> .btn13 {
@@ -112,7 +120,7 @@ justify-content:space-between }
     border-bottom-left-radius: 1rem;
     width:50%;
     color:black;
-    height:40px;
+    height:auto;
     transition: all .4s ease;
     cursor: pointer;
     text-align: center;
@@ -133,7 +141,7 @@ justify-content:space-between }
     
     width:50%;
     color:black;
-    height:40px;
+    height:auto;
     transition: all .4s ease;
     cursor: pointer;
     text-align: center;
@@ -416,7 +424,7 @@ input[id="tab04"]:checked ~ .con1 {display:block;}
 .price{font-size:17px; font-weight: 70  0;}
 .adult{width:300px; height:100px; }
 .adultbox{width:100%; height:100px; display:flex;
-    justify-content: space-between;}
+    justify-content: space-between; margin-top:30px;}
 
 #btn_add{width:100px; height:100px;}
 #btn_add2{width:100px; height:100px;}
@@ -424,14 +432,14 @@ input[id="tab04"]:checked ~ .con1 {display:block;}
 
 .young{width:300px; height:100px;} 
 .youngbox{width:100%; height:100px; display:flex;
-    justify-content: space-between; }
+    justify-content: space-between;margin-top:30px; }
 
 .kidsbox{width:100%; height:100px; display:flex;
-justify-content: space-between;}
+justify-content: space-between; margin-top:30px;}
 
 
 .sumbox{width:100%; height:50px; display:flex;
-justify-content: space-evenly;}
+justify-content: flex-end;}
 
 
 
@@ -614,8 +622,8 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
    
     
   }
-
-  .spank1 i {padding-left:10px;}
+  .spank1{font-weight: bold; color:black; margin-top:40px;}
+  .spank1 i {padding-left:10px; }
 
 
   .price{font-weight:bold; color:black;}

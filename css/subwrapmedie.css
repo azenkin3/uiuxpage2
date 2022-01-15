@@ -18,8 +18,8 @@
 .starphoto{width:100%;}
 .starphoto2{width:100%;}
 
-#pxhd{font-size:27px;}
-.pxod{font-size:13px;}
+#pxhd{font-size:1.5rem;}
+.pxod{font-size:12px;}
 
 
 #wrapb {width:100%; height:250px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; text-decoration-line: none;
