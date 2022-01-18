@@ -6,8 +6,8 @@
 
     /* Nav container */
 
-    .ok12{width:30%;}
-    .okh3{text-align: center; margin-top:15px; margin-right:15px; font-size: 1rem;}
+    .ok12{width:40%;}
+    .okh3{font-size:1.3rem; margin-top:15px; margin-right:15px;}
 
     #navbar2{width:100%; height:80px;}
 
@@ -15,7 +15,7 @@
     .bigphoto{height:500px;}
     #review{font-size:13px;}
    
-    .btnbox2{margin-top:20px;}
+    .btnbox2{margin-top:50px;border-top:solid 1px #3f4a82; }
 
     .logo { padding-top:15px;}
     .navbar {width:100%;flex-direction: column;align-items: flex-start; padding:none;}
@@ -96,10 +96,118 @@
 
 .social{margin-top:1px;}
 
+.btnbox2 h2 {padding-left:10px;}
+.dddtbox{padding-left:10px;}
+.dddtbox2{padding-left:10px;}
+.dddtbox3{padding-left:10px;}
+.btn25 {margin-right:10px;}
 }
 
 
 @media (min-width:802px) and (max-width:1199px){
+
+  
+    /* Nav container */
+
+    .poster{display:none;}
+
+    .ok12{width:40%;}
+    .okh3{font-size:1.3rem; margin-top:15px; margin-right:15px;}
+
+    #navbar2{width:100%; height:80px;}
+
+
+    .bigphoto{height:850px;}
+    #review{font-size:13px;}
+   
+    .btnbox2{margin-top:50px;}
+ .slidewrap{width:100%;}
+ .slide{width:100%;}
+ .slide li{width:100%;}
+    .logo { padding-top:15px;}
+    .navbar {width:100%;flex-direction: column;align-items: flex-start; padding:none;}
+
+    .navbar__logo > img {padding-top:10px;}
+  
+    /* Menu */
+    .navbar__menu {  
+        flex-direction: column;
+        text-align: center; 
+        width: 100%; 
+        z-index: 30;
+    background-color: #1a1a1a;  }
+
+    .navbar__menu li{padding:none;}
+  
+    .navbar__menu a {
+      /* Fill in an entire line so that user can click on any space */
+      display: block; color:black;
+
+    }
+  
+ 
+
+  
+    /* Toggle button */
+    .navbar__toggleBtn {display: block; }
+  
+    
+    .navbar__menu.active,.navbar__icons.active{display: flex; transition: all 0.3s ;}
+
+ .content{width:100%;}
+
+
+ #topbox{width:100%;}
+ #fullbox{width:100%;}
+ .longbox{width:100%;}
+
+ input[type="radio"] + label {display:inline-block; 
+    padding:20px; background:#AE5324; color:#fff;
+     font-size:15px; cursor:pointer;
+     font-family: "NanumSquare",sans-serif;
+    padding-bottom: 20px;
+    width:24%;
+    
+    text-align: center;
+    display:none;
+}
+
+.con1{width:100%;}
+
+.dddtbox{width:100%; font-size:13px;}
+
+.dtbox{width:100%; font-size:11px;}
+
+
+.productprice{width:100%; height:200px;}
+.productprice table {width:99%; margin: 0 auto;}
+
+#name{font-size:30px;}
+
+.prdpri{display:none;}
+.prdpri2{display:none;}
+
+.con2{width:100%; height:auto;  }
+.con3{width:100%; height:3050px;}
+
+.mobbox{width:100%;}
+
+
+.boxa2 > .conart{width:80px; height:100px; margin:5px 8px;}
+
+#noticebox{width:100%; font-size:11px; height:800px;}
+
+.meeting{height:250px;}
+
+.notice-content table {font-size:12px;}
+
+.social{margin-top:1px;}
+
+.btnbox2 h2 {padding-left:10px;}
+.dddtbox{padding-left:10px;}
+.dddtbox2{padding-left:10px;}
+.dddtbox3{padding-left:10px;}
+.btn25 {margin-right:10px;}
   #navbar2{width:100%; height:60px;}
    
 
@@ -107,7 +215,7 @@
   .navbar {width:100%;align-items: flex-start; padding:none;
   display:flex; justify-content: space-between;}
 
-
+  
 
   
    #topbox{width:100%;}
@@ -117,5 +225,26 @@
   .mobbox{width:100%;}
   label{display:none;}
   input[type="radio"] + label {display:none;}
+
+  .localphoto{width:100%;}
+  .starphoto{width:100%;}
+
+  .starphoto2{width:100%;}
   
+ 
+}
+
+
+@media screen and (min-width:1200px){
+
+   .mobbox{display:none;}
+   .fixbtn{display:none;}
+
+   input[id*="checkbox"] + label{
+   
+    position: relative;
+    margin-top:15px;
+    display:flex;
+    
+}
 }

@@ -173,19 +173,15 @@
 
 
 .accordion8{
-    font-family:Arial, Helvetica, sans-serif; 
-    margin:0 auto;
-    font-size:14px;
-    
    
-    width:100%;
-    padding-top:10px;
-  
+    margin:0 auto;
+    font-size:14px; 
+    width:99%;
+ 
 }
 
 
 .accordion7 , .accordion6 , .accordion5 , .accordion4  , .accordion3 {
-    font-family:Arial, Helvetica, sans-serif; 
     margin:0 auto;
     font-size:14px;
     
@@ -439,7 +435,7 @@
     color:#666666;
     
 
-    background-color: #dddddd;
+ 
     flex-direction: column;
    
     transition: all .5s ease-out;
@@ -518,7 +514,7 @@
 
 .vertical8 ul li{
     overflow:hidden;
-    margin:0 0 1px;
+  
 }
 
 .vertical7 ul li{
@@ -573,6 +569,10 @@
 .vertical3 ul li .content3{
     height:0px;
    
+}
+
+.vertical8 [type=radio]:checked ~ label ~ .pkg-li, .vertical8 [type=checkbox]:checked ~ label ~ .pkg-li {
+  display:none;
 }
 
 .vertical8 [type=radio]:checked ~ label ~ .content8, .vertical8 [type=checkbox]:checked ~ label ~ .content8 {

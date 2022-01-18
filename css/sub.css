@@ -77,9 +77,7 @@ justify-content:space-between }
   color:#666666}
 .centerp{padding-top:20px;}
 
-
-#review
-
+#toppa{font-size:13px; color:black; padding-left:1rem;}
 
 .airartbtn{width:100%; height:30%;}
 .mobbox> .btn13 {
@@ -253,7 +251,7 @@ button a {text-decoration: none; color:#fff; }
 .localphoto{width:869px; height:350px;}
 .starphoto{width:869px; height:500px;}
 
-.btnbox2{width:100%; height:50px;display:flex; justify-content: space-between;}
+.btnbox2{width:100%; height:50px;display:flex; justify-content: space-between; border-top:solid 1px #3f4a82; }
 .btnbox2 button { color:black;
     background-color:#888888; 
     float:right;
@@ -400,8 +398,10 @@ input[type="radio"] + label {display:inline-block;
 }
 
 input[id*="checkbox"] + label{
-    display:flex;
+   
     position: relative;
+    margin-top:15px;
+    
 }
 
     input[id*="checkbox"] + label em {
@@ -420,8 +420,48 @@ input[id*="checkbox"] + label{
         
     }
 
+    .ok12{width:20%;  height:77px; background-color: #f2f4f7;}
+    .ok13{width:80%; height:77px; background-color: #f2f4f7;}
+  
+    .okh3 {
+        padding-top:20px;
+         color:black; 
+         text-align: left;
+         padding-left:25px;}
+    .okp{
+        padding-top:8px;
+         color:white; 
+         font-weight: normal
+         ;text-align: left;
+         padding-left:20px;
+      }
+  
+      .okh4 {
+          padding-top:20px;
+           color:black; 
+           text-align: left;
+           padding-left:20px;
+           font-size:15px;
+          }
+      .okp2{
+          padding-top:8px;
+           color:#888888; 
+           font-weight: normal
+           ;text-align: left;
+           padding-left:20px;
+           font-size:13px;
+        }
 
-
+    .ok12ok13{display:flex;}
+   .pkg-li{display:flex; height:20%; width:100%; flex-direction: column;
+align-items: flex-end;}
+    .pkgli1{background-image: url(../img/ico-pkg-benfit-hnt-90.gif); 
+      background-repeat:no-repeat; font-size:11px;
+    background-size: 1.1rem;
+  width:33%; }
+    .pkgli2{background-image: url(../img/ico-pkg-benfit-month-30.gif); 
+      background-repeat:no-repeat; font-size:11px;  background-size: 1.2rem;
+      width:33%; margin-top:10px; margin-bottom: 5px;}
     input[id*="checkbox"]:checked+label em {background-position: -162px -30px;}
 
     .conbox {display:none;}
@@ -430,6 +470,7 @@ input[id="tab01"]:checked ~ .con1 {display:block;}
 input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
 input[id="tab04"]:checked ~ .con1 {display:block;}
+input[id="checkbox"]:checked ~ .pkgli1{display:none;}
 
 .age{font-size:13px;}
 .price{font-size:17px; font-weight: 70  0;}
@@ -461,7 +502,7 @@ justify-content: flex-end;}
 margin-right: 5px; margin-top:10px;}
 
 
-.rebtn1{width:60%; height:60px; background-color:#AE5324;
+.rebtn1{width:60%; height:60px; background-color:#3f4a82;
 margin-right:20px; font-size:20px;}
 .rebtn2{width:31%; height:60px; background-color: #fff; border:solid 0.5px black;
  font-size:20px; padding-bottom:5px;}
@@ -542,8 +583,45 @@ border-right: none;
 border-left:none;}
   .productimg{width:100%; height:auto; margin-top:40px;}
 
-  .ok12{width:20%;  height:77px; background-color: #f2f4f7;}
-  .ok13{width:80%; height:77px; background-color: #f2f4f7;}
+  .ok12{width:20%;  height:77px;}
+  .ok13{width:80%; height:77px;}
+
+
+  .ok19{width:60%;  height:77px;}
+
+  .ok20{width:80%; height:77px;}
+
+  .okh3a {
+    padding-top:31px;
+     color:black; 
+     
+     padding-left:25px;
+    font-size:20px;
+  color:#3f4a82;}
+
+.okpa{
+    padding-top:8px;
+     color:white; 
+     font-weight: normal
+     ;text-align: left;
+     padding-left:20px;
+  }
+
+  .okh4a {
+      padding-top:20px;
+       color:black; 
+       text-align: left;
+       padding-left:20px;
+       font-size:15px;
+      }
+  .okp2a{
+      padding-top:8px;
+       color:#888888; 
+       font-weight: normal
+       ;text-align: left;
+       padding-left:20px;
+       font-size:13px;
+    }
 
   .okh3 {
       padding-top:20px;
@@ -668,4 +746,4 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
 
 
     .icontel{ border: 1px solid #e5e5e5; display:flex; align-items: center; justify-content: center; width: 10%; height: 40px; margin:15px 10px; border-radius: 2.5rem;}
-    .btnreser{border: 1px solid #e5e5e5;width:70%; height:50px; background-color: #ae5324; margin:10px 10px; border-radius: 1.5rem;}
+    .btnreser{border: 1px solid #e5e5e5;width:70%; height:50px; background-color: #3f4a82; margin:10px 10px; border-radius: 1.5rem;}
