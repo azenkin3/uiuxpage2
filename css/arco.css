@@ -176,7 +176,9 @@
    
     margin:0 auto;
     font-size:14px; 
-    width:99%;
+    width:100%;
+    border-right:solid none;
+    border-left:solid none;
  
 }
 
