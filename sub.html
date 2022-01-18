@@ -30,6 +30,8 @@
     <script src="js/subslide.js"></script>                                                                              
     
     <script src="js/count.js"></script>
+    
+    <script src="js/count2.js"></script>
 
     
    <style>
@@ -145,6 +147,8 @@
                             style="float:right; background-color: #3f4a82; font-size:13px; color:white;">항공 상세 일정</a>
 
                         <div class="modal">
+                            <div class="header">항공 여정 보기
+                            </div>
                             <div class="time">
                                 <p>직항 / 총 비행시간 : 07시간 55분</p>
                                 <p>총 소요 시간 : 07시간 55분</p>
@@ -513,12 +517,12 @@
 
                     <div id="wrap6">
                         <a href="#" class="box6">
-                            <div class="photo6" style="background-image: url(../uiuxpage2/img/summit.png);"></div>
+                            <div class="photo6"></div>
                             <div class="text6">
 
 
                                 </h3>
-                                <h3 id="name">인플로언서 상품평</h3>
+                                <h3 id="name"> 수정중 </h3>
                                 <p id="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore ma
                                     gna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit
@@ -1427,28 +1431,28 @@
 
 
 
-        <div class="adultbox">
+        <div class="adultbox2">
             <p>
                 <span title=" 성인 (만 12세 이상)" class="tooltip"></span><span class="spank1">성인 </span><br></span>
                 <span class="price">3,043,200원</span>
             </p>
 
             <form class="adultform" style="margin-right:15px; margin-top:10px;">
-                <input type="button" id=minus a href="#add_one" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amounts.value--;">
+                <input type="button" id=minusk a href="#add_one" value=- style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsa.value--;">
 
-                <input type=text id=amounts value=0 style="width:50px; height:50px;
+                <input type=text id=amountsa value=0 style="width:50px; height:50px;
                     text-align:center;">
 
-                <input type="button" id=plus a href="#add_one" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amounts.value++;">
+                <input type="button" id=plusk a href="#add_one" value=+ style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsa.value++;">
             </form>
 
 
         </div>
 
 
-        <div class="youngbox">
+        <div class="youngbox2">
             <p>
                 <span class="toop" title="아동 ( 만12세 미만 )  " class="tooltip"><span class="spank1">소인<i
                             class="far fa-question-circle"></i></span> <br></span>
@@ -1457,18 +1461,18 @@
 
 
             <form class="youngform" style="margin-right:15px; margin-top:10px;">
-                <input type="button" id=minus2 a href="#add_one" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountss.value--;">
-                <input type=text id=amountss value=0 style="width:50px; height:50px; text-align:center;">
-                <input type="button" id=plus2 a href="#add_one" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountss.value++;">
+                <input type="button" id=minusk2 a href="#add_one" value=- style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsb.value--;">
+                <input type=text id=amountsb value=0 style="width:50px; height:50px; text-align:center;">
+                <input type="button" id=plusk2 a href="#add_one" value=+ style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsb.value++;">
             </form>
 
 
         </div>
 
 
-        <div class="kidsbox">
+        <div class="kidsbox2">
             <p>
                 <span title=" 유아 (만2세 미만)" class="tooltip"><span class="spank1">유아<i class="far fa-question-circle"></i>
                     </span><br></span>
@@ -1477,26 +1481,26 @@
 
 
             <form class="kidsform" style="margin-right:15px; margin-top:10px;">
-                <input type="button" id=minus3 a href="#add_one" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsss.value--;">
-                <input type=text id=amountsss value=0 style="width:50px; height:50px; text-align:center;">
-                <input type="button" id=plus3 a href="#add_one" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsss.value++;">
+                <input type="button" id=minusk3 a href="#add_one" value=- style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsc.value--;">
+                <input type=text id=amountsc value=0 style="width:50px; height:50px; text-align:center;">
+                <input type="button" id=plusk3 a href="#add_one" value=+ style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsc.value++;">
             </form>
 
 
 
         </div>
 
-        <div class="sumbox">
+        <div class="sumbox2">
 
-            <h1>총금액</h1>
+            <p style="color:#3f4a82; font-size:30px; font-weight:bold;">총금액</h1>
 
-            <input type="text" name="line1" class="line" value="0" style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
+            <input type="text" name="line1" class="linek" value="0" style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
             font-size:32px; padding-left:20px; padding-bottom: 5px;
-            color: #AE5324" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
+            color: #3f4a82;" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
 
-            <h1 style="margin-right:15px;">원</h1>
+            <h1 style="margin-right:15px; color:#3f4a82;">원</h1>
 
 
 
@@ -1611,10 +1615,12 @@
 
         $('.js-click-modal').click(function () {
             $('.mobbox').addClass('modal-open');
+            $('.fixbtn').hide()
         });
 
         $('.js-close-modal').click(function () {
             $('.mobbox').removeClass('modal-open');
+            $('.fixbtn').show()
         });
     </script>
 

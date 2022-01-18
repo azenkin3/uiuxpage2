@@ -15,7 +15,7 @@
     .bigphoto{height:500px;}
     #review{font-size:13px;}
    
-    .btnbox2{margin-top:50px;border-top:solid 1px #3f4a82; }
+    .btnbox2{margin-top:50px;  }
 
     .logo { padding-top:15px;}
     .navbar {width:100%;flex-direction: column;align-items: flex-start; padding:none;}
