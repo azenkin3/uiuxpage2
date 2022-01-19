@@ -475,7 +475,7 @@ align-items: flex-end;}
 input[id="tab01"]:checked ~ .con1 {display:block;}
 input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
-input[id="tab04"]:checked ~ .con1 {display:block;}
+input[id="tab04"]:checked ~ .con4 {display:block;}
 input[id="checkbox"]:checked ~ .pkgli1{display:none;}
 
 .age{font-size:13px;}
