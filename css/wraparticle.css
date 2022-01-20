@@ -172,7 +172,7 @@ margin-right: 5px;
   .cardTopg {
     transition: 0.4s all ease;
     height: 70%;
-    background: url(../img/main7.jfif)
+    background: url(../img/KENSING.jpg)
     no-repeat;
       background-size: cover;
       background-position: center;
@@ -199,14 +199,21 @@ margin-right: 5px;
   .cardText {min-height: 60%; padding: 20px; }
   
   .cardTitle {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 700;
     color:black;
+  }
+
+  .cardTitle2 {
+    font-size: 15px;
+    font-weight: 700;
+    color:black;
+    margin-top:20px;
   }
   
   .cardInfo {
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     color: orange;
   }

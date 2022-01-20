@@ -107,6 +107,7 @@
 @media (min-width:802px) and (max-width:1199px){
 
   
+
     /* Nav container */
 
     .poster{display:none;}
@@ -236,6 +237,8 @@
 
 
 @media screen and (min-width:1200px){
+
+  .container3{display:none;}
 
    .mobbox{display:none;}
    .fixbtn{display:none;}

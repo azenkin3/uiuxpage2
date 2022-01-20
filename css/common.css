@@ -41,7 +41,7 @@
 .navbar__menu li:hover {
         background-color: #2079ab;
         border-radius: 8px;
-        transform:translateY(-10px);
+       
          transition: all 3s; opacity: 0.3;
         
 }

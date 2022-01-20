@@ -10,7 +10,10 @@
     margin-top:50px;
   }
   
-.qna-content3{display:none;}
+
+  .qna-content3{display:none;}
+
+
   .tap-box3{
     width:100%;
     height:300px;
@@ -53,7 +56,7 @@
   
   .btn-box3>.notice-btn3{
     background-color:#ddd;
-    color:#AE5324;
+    color:#3f4a82;
     font-weight:bold;
   }
   
@@ -65,7 +68,7 @@
 
   .btn-box3>.qna-btn3{
     background-color:#ccc;
-    color:#AE5324;
+    color:#3f4a82;
     font-weight:bold;
   }
   
