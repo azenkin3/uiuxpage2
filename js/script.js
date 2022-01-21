@@ -379,25 +379,25 @@ $(window).scroll(function () {
         if (ws > 4000) {
             $('.cardh').css("transform", "translateY(0px)").css("opacity", "1")
         }
+        if (ws > 4900) {
+            $('#ttl').css("transform", "translateX(0px)").css("opacity", "1")
+        }
+    
+        if (ws > 4950) {
+            $('#hpe').css("transform", "translateX(0px)").css("opacity", "1")
+        }
+    
+        if (ws > 5000) {
+            $('.slider_wrapper').css("transform", "translateX(0px)").css("opacity", "1")
+        }
+
+        if (ws > 1000) {
+            $("#slidewrap").css("transform", "translateX(0px)").css("opacity", "1")
+        }
     }
 
 
-    if (ws > 5300) {
-        $('#slidewrap').css("transform", "translateY(0px)").css("opacity", "1")
-    }
-
-
-    if (ws > 4900) {
-        $('#ttl').css("transform", "translateX(0px)").css("opacity", "1")
-    }
-
-    if (ws > 4950) {
-        $('#hpe').css("transform", "translateX(0px)").css("opacity", "1")
-    }
-
-    if (ws > 5700) {
-        $('.slider_wrapper').css("transform", "translateX(0px)").css("opacity", "1")
-    }
+   
 
    
 

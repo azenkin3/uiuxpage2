@@ -1,7 +1,10 @@
 
 body{background: #f0f4f7 !important; font-family:"Nunito Sans", Arial, sans-serif !important; }
 
-
+.fa-star{font-size:40px;  color:gold; margin:0 auto; }
+.fa-star-half-alt{font-size:40px; text-align: center; color:gold;}
+.name {font-size:50px; text-align: center;}
+.review{font-size:15px; padding-top:15px;}
 
 
 .banner{width:100%; height:800px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
@@ -16,8 +19,8 @@ body{background: #f0f4f7 !important; font-family:"Nunito Sans", Arial, sans-seri
 .iconpage > article { border-radius:12px; text-align:center; width:190px; height:190px; background-color:white; float:left; margin: 15px 15px;}
 .iconpage > article > i  {padding-top:25px; font-size:60px; color:#ff414d; }
 .iconpage > article > img {width:60px; height:60px; position:relative; top:10%; filter: invert(43%) sepia(94%) saturate(3620%) hue-rotate(332deg) brightness(105%) contrast(112%);}
-.iconpage > article > text > #bo {padding-top:40px; font-size:18px;}
-.iconpage > article > text > #bo:hover{color:white;}
+.iconpage > article > text > .bo {padding-top:40px; font-size:18px;}
+.iconpage > article > text > .bo:hover{color:white;}
 .iconpage > article > text > span {color:#ff414d; font-size:15px;}
 .iconpage > article:hover {background-color:#ff414d; transition: 0.6s all ease; color:white;}
 .iconpage > article:hover > img {filter: invert(93%) sepia(40%) saturate(2%) hue-rotate(191deg) brightness(106%) contrast(100%);}
