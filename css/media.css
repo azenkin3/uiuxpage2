@@ -1,5 +1,6 @@
 
 @media screen and (max-width:800px){
+  .contact-area {height:350px; margin-bottom: 0;}
 
     /* Nav container */
 
@@ -213,6 +214,7 @@
 
  #slidewrap {width:100%;}
  .slide , .slide li { width:100%;}
+ .contact-area {height:350px; margin-bottom: 0;}
 }
 
 

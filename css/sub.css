@@ -1,7 +1,7 @@
 
-a{text-decoration: none;}
+a{text-decoration: none; }
 
-#longh3{font-family: 'Jua', sans-serif; }
+
 
 #pxhd{color:#1a1a1a; font-size:35px; text-align: left; font-weight: 600; padding-left: 15px;}
 .pxod{color:#1d1d1d; padding-bottom: 10px; padding-top: 10px; font-size:16px; padding-left: 15px;}
@@ -248,10 +248,14 @@ border:none;
 
 }
 
-button a {text-decoration: none; color:#fff; }
 
-.localphoto{width:869px; height:350px;}
-.starphoto{width:869px; height:500px;}
+.slide{width:100%;}
+.slide li {width:100%;}
+
+.schbtn a {text-decoration: none; color:#3f4a82; }
+
+.localphoto{width:100%; height:350px;}
+.starphoto{width:100%; height:500px;}
 
 .btnbox2{width:100%; height:50px;display:flex; justify-content: space-between; border-top:solid 1px #3f4a82; }
 .btnbox2 button { color:black;
@@ -261,7 +265,10 @@ button a {text-decoration: none; color:#fff; }
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
-margin-top:5px;}
+margin-top:5px;
+cursor: pointer;}
+
+.btnbox2 button a {color:white;}
 
 
 
@@ -395,7 +402,7 @@ input[type="radio"] {display:none;}
 input[type="radio"] + label {display:inline-block; 
     padding:20px; background:#AE5324; color:#fff;
      font-size:20px; cursor:pointer;
-     font-family: "NanumSquare",sans-serif;
+  
     padding-bottom: 20px;
 }
 
@@ -439,11 +446,11 @@ input[id*="checkbox"] + label{
       }
   
       .okh4 {
-          padding-top:20px;
+          
            color:black; 
            text-align: left;
            padding-left:20px;
-           font-size:15px;
+           font-size:13px;
           }
       .okp2{
           padding-top:8px;
@@ -517,7 +524,9 @@ margin-right: 5px; margin-top:10px;}
 
 
 .rebtn1{width:60%; height:60px; background-color:#3f4a82;
-margin-right:20px; font-size:20px;}
+margin-right:20px; font-size:20px; }
+
+.rebtn1 a {color:#fff;}
 .rebtn2{width:31%; height:60px; background-color: #fff; border:solid 0.5px black;
  font-size:20px; padding-bottom:5px;}
 
@@ -649,14 +658,14 @@ border-left:none;}
        padding-left:25px;}
   .okp{
       padding-top:8px;
-       color:white; 
+       color:black; 
        font-weight: normal
        ;text-align: left;
        padding-left:20px;
     }
 
     .okh4 {
-        padding-top:20px;
+      padding-top:20px;
          color:black; 
          text-align: left;
          padding-left:20px;
@@ -789,17 +798,18 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
       display: inline-block;
       padding: 10px 15px;
       cursor: pointer;
-      width:30%;
+      width:33%;
     }
     
     ul.tabs li.current{
-      background: #ededed;
-      color: #222;
+      background: #3f4a82;
+      color: #fff;
+      font-weight: bold;
     }
     
     .tab-content{
       display: none;
-      background: #ededed;
+    
       padding: 15px;
     }
     

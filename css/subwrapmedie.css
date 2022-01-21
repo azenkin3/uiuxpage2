@@ -15,7 +15,7 @@
 .slide li img{width:100%;}
 .bigphotoP{width:100%;}
 .localphoto{width:100%;}
-.starphoto{width:100%;}
+.starphoto{width:100%; height:300px;}
 .starphoto2{width:100%;}
 
 #pxhd{font-size:1.5rem;}

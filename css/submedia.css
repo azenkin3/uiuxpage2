@@ -40,7 +40,13 @@
     }
   
  
-
+    .okh4 {
+    
+         color:black; 
+         text-align: left;
+         padding-left:20px;
+         font-size:13px;
+        }
   
     /* Toggle button */
     .navbar__toggleBtn {display: block; }
@@ -84,9 +90,9 @@
 .con3{width:100%; height:3050px;}
 
 .mobbox{width:100%;}
+.tab-content.current{height:3300px;}
 
-
-.boxa2 > .conart{width:80px; height:100px; margin:5px 8px;}
+.boxa2 > .conart{width:200px; height:100px; margin:5px 8px;}
 
 #noticebox{width:100%; font-size:11px; height:800px;}
 
@@ -95,13 +101,20 @@
 .notice-content table {font-size:12px;}
 
 .social{margin-top:1px;}
-
+.hoteltable{margin-top:400px;}
 .btnbox2 h2 {padding-left:10px;}
 .dddtbox{padding-left:10px;}
 .dddtbox2{padding-left:10px;}
 .dddtbox3{padding-left:10px;}
 .btn25 {margin-right:10px;}
 }
+
+.container3{width:100%;}
+ul.tabs li{
+ 
+  width:32%;
+}
+
 
 
 @media (min-width:802px) and (max-width:1199px){
@@ -231,15 +244,15 @@
   .starphoto{width:100%;}
 
   .starphoto2{width:100%;}
-  
+  .container3{width:100%;}
  
 }
 
 
 @media screen and (min-width:1200px){
 
-  .container3{display:none;}
 
+   .container3{width:100%; margin-top:30px;}
    .mobbox{display:none;}
    .fixbtn{display:none;}
 
@@ -251,6 +264,7 @@
    
     
 }
+.contact-area {height:400px; margin-bottom: 0;}
 
 
 }

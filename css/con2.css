@@ -130,7 +130,7 @@
 
 
 
-  .hotel-tap{width:100%; height:1000px;}
+  .hotel-tap{width:100%; height:2500px;}
 
   .conart{color:white;}
 
@@ -149,7 +149,7 @@
    flex-direction: row wrap; }
 
 
-  .boxa2 > .conart { width:100px; height:100px; 
+  .boxa2 > .conart { width:95px; height:100px; 
     margin: 10px 12px; float:left; display:flex; flex-direction: column;
     justify-content: center; font-size:14px; text-align: center;
     color:#AE5324; font-weight: bold; border:solid 0.5px #ddd

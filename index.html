@@ -27,7 +27,11 @@
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
   <script src="js/script.js"></script>
 
-
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Jua&family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+       body{font-family: 'Hahmlet', serif; line-height:1.8;}
+</style>
 
 </head>
 
@@ -48,8 +52,8 @@
         <li><a href="index.html">홈</a></li>
         <li><a href="sub.html">국내여행</a></li>
         <li><a href="sub.html">해외여행</a></li>
-        <li><a href="sub.html">테마여행</a></li>
-        <li><a href="sub.html">럭셔리여행</a></li>
+        <li><a href="sub.html">항공</a></li>
+        <li><a href="sub.html">호텔/펜션</a></li>
       </ul>
 
       <!-- Toggle button -->
@@ -72,28 +76,28 @@
 
           <form class="flex-form">
 
-            <input type="search" placeholder="Where do you want to go?">
+            <input type="search" placeholder="어디로 떠나볼까요?">
 
-            <label>from</label>
+            <label>체크인</label>
 
-            <input type="date" name="from">
+            <input type="date" name="체크인">
 
-            <label>to</label>
+            <label>체크아웃</label>
 
-            <input type="date" name="to">
+            <input type="date" name="체크아웃">
 
             <select name="option1" id="option2">
-              <option value="1">1 Guest</option>
-              <option value="2">2 Guest</option>
-              <option value="3">3 Guest</option>
-              <option value="4">4 Guest</option>
-              <option value="5">5 Guest</option>
-              <option value="6">6 Guest</option>
-              <option value="6+">6+ Guest</option>
+              <option value="1">1명</option>
+              <option value="2">2명</option>
+              <option value="3">3명</option>
+              <option value="4">4명</option>
+              <option value="5">5명</option>
+              <option value="6">6명</option>
+              <option value="6+">6+명</option>
           </select>
        
 
-            <input type="submit" value="Search">
+            <input type="submit" value="검색">
 
           </form>
 

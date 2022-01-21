@@ -10,7 +10,7 @@
 #kk{color:black; font-size:13px;}
 
 .accordion {
-    font-family:Arial, Helvetica, sans-serif; 
+   
     margin:0 auto;
     font-size:14px;
     
@@ -94,7 +94,7 @@
 
 
 .accordion2 {
-    font-family:Arial, Helvetica, sans-serif; 
+
     margin:0 auto;
     font-size:14px;
     
@@ -130,6 +130,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+    display: flex
 }
 .accordion2 ul li label:hover, .accordion2 [type=radio]:checked ~ label, .accordion2 [type=checkbox]:checked ~ label {
     
@@ -302,7 +303,7 @@
     width:100%;
     border-right:none;
     border-left:none;
-
+    
  
 }
 
@@ -321,6 +322,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+    display: flex
 }
 
 .accordion6 label {
@@ -338,6 +340,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+    display: flex
 }
 
 .accordion5 label {
@@ -355,6 +358,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+    display: flex
 }
 
 .accordion4 label {
@@ -372,6 +376,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
+    display: flex
 }
 
 .accordion3 label {
@@ -389,7 +394,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-
+    display: flex
 
 
 }
