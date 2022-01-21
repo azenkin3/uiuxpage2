@@ -467,15 +467,12 @@ align-items: flex-end;}
     input[id*="checkbox"]:checked+label em {background-position: -162px -30px;}
 
     .conbox {display:none;}
-
+   
 
 
     .shortbox{border-radius: 1.5rem;}
 
-input[id="tab01"]:checked ~ .con1 {display:block;}
-input[id="tab02"]:checked ~ .con2 {display:block;}
-input[id="tab03"]:checked ~ .con3 {display:block;}
-input[id="tab04"]:checked ~ .con4 {display:block;}
+
 input[id="checkbox"]:checked ~ .pkgli1{display:none;}
 
 .age{font-size:13px;}
@@ -809,3 +806,11 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
     .tab-content.current{
       display: inherit;
     }
+
+
+    
+    input[id="tab01"]:checked ~ .con1 {display:block;}
+
+input[id="tab02"]:checked ~ .con2 {display:block;}
+input[id="tab03"]:checked ~ .con3 {display:block;}
+input[id="tab04"]:checked ~ .con4 {display:block;}

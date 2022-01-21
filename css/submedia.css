@@ -3,6 +3,7 @@
     
 
 
+  input[id="tab01"]:checked ~ .con1 {display:none;}
 
     /* Nav container */
 
@@ -49,7 +50,6 @@
 
  .content{width:100%;}
 
-
  #topbox{width:100%;}
  #fullbox{width:100%;}
  .longbox{width:100%;}
@@ -65,7 +65,7 @@
     display:none;
 }
 
-.con1{width:100%;}
+.con1{display:none}
 
 .dddtbox{width:100%; font-size:13px;}
 
@@ -248,6 +248,11 @@
     position: relative;
     margin-top:15px;
     display:flex;
+   
     
 }
+
+
 }
+
+
