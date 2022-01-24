@@ -118,7 +118,7 @@ margin-right: 5px;
     
   .cardTopa {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main1.jpg)
       no-repeat;
       background-size: cover;
@@ -126,7 +126,7 @@ margin-right: 5px;
 
   .cardTopb {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main2.jpg)
    
       no-repeat;
@@ -135,7 +135,7 @@ margin-right: 5px;
 
   .cardTopc {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main3.jpg)
       no-repeat;
       background-size: cover;
@@ -143,7 +143,7 @@ margin-right: 5px;
 
   .cardTopd {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main4.jpg)
       no-repeat;
 
@@ -152,7 +152,7 @@ margin-right: 5px;
 
   .cardTope {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main5.jpg)
       no-repeat;
       background-size: cover;
@@ -162,7 +162,7 @@ margin-right: 5px;
 
   .cardTopf {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main6.jpg)
       no-repeat;
       background-size: cover;
@@ -171,7 +171,7 @@ margin-right: 5px;
 
   .cardTopg {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/KENSING.jpg)
     no-repeat;
       background-size: cover;
@@ -182,7 +182,7 @@ margin-right: 5px;
 
   .cardToph {
     transition: 0.4s all ease;
-    height: 70%;
+    height: 69%;
     background: url(../img/main8.jpg)
       no-repeat;
 
@@ -215,7 +215,7 @@ margin-right: 5px;
     padding-top: 10px;
     font-size: 13px;
     font-weight: 500;
-    color: orange;
+    color: #3f4a82;
   }
   
   
@@ -228,7 +228,7 @@ margin-right: 5px;
   }
   
   .cardHoverText > ul > li > i ,span{
-      color:#ff414d; font-size:20px;
+      color:#3f4a82; font-size:20px;
   }
 
   .cardHoverText > ul > .reviewli {
@@ -329,7 +329,7 @@ margin-right: 5px;
   , .cardc:hover .cardTopc ,  .cardd:hover .cardTopd
   , .cardf:hover .cardTopf  ,.cardg:hover .cardTopg
   , .carde:hover .cardTope  , .cardh:hover .cardToph{
-    height: 48%;
+    height: 33%;
     opacity: 0.5;
     transition: 0.8s all ease;
   }

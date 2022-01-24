@@ -66,11 +66,8 @@
     <div class="banner">
       <div class="content">
 
-        <h1>👋 Hello Travelo</h1>
-        <p>
-          Find great places to stay, eat, shop, or visit from local experts
-        </p>
-
+        <h1>Travelo</h1>
+        
         <div class="cover">
 
 
@@ -113,7 +110,7 @@
         <article>
           <img src="img/fast-food.png" alt="error">
           
-            <h2 class="bo">Food & Drinks</h2>
+            <h2 class="bo">음식먹거리</h2>
             <span>103</span>
             Listings
           
@@ -122,7 +119,7 @@
         <article>
           <img src="img/review.png" alt="error">
           
-            <h2 class="bo">Hotels</h2>
+            <h2 class="bo">호텔</h2>
             <span>103</span>
             Listings
           
@@ -130,7 +127,7 @@
         <article>
           <img src="img/online-shopping.png" alt="error">
          
-            <h2 class="bo">Shopping</h2>
+            <h2 class="bo">쇼핑</h2>
             <span>103</span>
             Listings
         
@@ -138,7 +135,7 @@
         <article>
           <img src="img/beauty.png" alt="error">
          
-            <h2 class="bo">Beauty</h2>
+            <h2 class="bo">뷰티</h2>
             <span>103</span>
             Listings
           
@@ -146,7 +143,7 @@
         <article>
           <img src="img/fitness.png" alt="error">
           
-            <h2 class="bo">Fitness</h2>
+            <h2 class="bo">피트니스</h2>
             <span>103</span>
             Listings
           
@@ -154,7 +151,7 @@
         <article>
           <img src="img/counter.png" alt="error">
           
-            <h2 class="bo">Bar & Club</h2>
+            <h2 class="bo">바&클럽</h2>
             <span>103</span>
             Listings
         
@@ -671,5 +668,26 @@
 
 
 </body>
+
+<script>
+   $(function(){
+  $('.navbar__toggleBtn').click(function(){
+    $('.navbar__menu').slideToggle();
+  });
+  });
+  
+  $(window).resize(function(){
+    if(window.innerWidth>800){
+      $('.navbar__menu').show();
+      $('.navbar__toogleBtn').hide();
+    }
+  });
+  $(window).resize(function(){
+    if(window.innerWidth<800){
+      $('.navbar__menu').hide();
+  }  
+   
+  });
+</script>
 
 </html>

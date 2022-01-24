@@ -25,7 +25,7 @@
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 
-    <script src="js/os.js"></script>
+    <script src="js/shortbox.js"></script>
 
     <script src="js/subslide.js"></script>                                                                              
     
@@ -35,7 +35,7 @@
    <style>
 @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Jua&family=Nanum+Gothic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
-       body{font-family: 'Hahmlet', serif; line-height:1.8;}
+       body{font-family: 'Hahmlet', serif; }
    </style>
     
 
@@ -268,7 +268,7 @@
                             <input type="button" id=minusk a href="#add_one" value=- style="width:50px; height:50px;"
                                 onclick="javascript:this.form.amountsa.value--;">
             
-                            <input type=text id=amountsa value=0 style="width:50px; height:50px;
+                            <input type=text id=amountsa value=1 style="width:50px; height:50px;
                                 text-align:center;">
             
                             <input type="button" id=plusk a href="#add_one" value=+ style="width:50px; height:50px;"
@@ -496,24 +496,44 @@
                 <img class="bigphoto" src="../uiuxpage2/img/photo2.webp">
 
 
-                <div id="wrap6">
-                    <a href="#" class="box6">
-                        <div class="photo6"></div>
-                        <div class="text6">
+                <div class="pointbox">
+                    <div class="pointmain">
+                 <img src="../uiuxpage2/img/3point.PNG" class="pointimg">
+                </div>
+                </div>
 
+                <div class="pointbox2">
+                <article class="pointart">
+                    <img src="img/check.PNG">
 
-                            </h3>
-                            <h3 id="name"> 수정중 </h3>
-                            <p id="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore ma
-                                gna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit
-                                dolor magna eget est lorem ipsum dolor sit.</p>
+                    <h3 style="color:#3f4a82;">쉐라톤 와이키키 투숙</h3>
+                   
 
+                    <p>와이키키 해변 바로 앞 <br>
+                    40층 1,230개 객실 <br>
+                하와이 최고급 호텔</p>
+                </article>
+                <article class="pointart">
+                    <img src="img/check.PNG">
 
+                    <h3 style="color:#3f4a82;">로컬 맛집 순례</h3>
+                   
 
+                    <p>SNS 단골 스팟 <br>
+                    하와이안 맛집투어 <br>
+                    </p>
+                
+                </article>
+                <article class="pointart">
+                    <img src="img/check.PNG">
 
-                        </div>
-                    </a>
+                    <h3 style="color:#3f4a82;">하와이 버킷리스트</h3>
+                    
+
+                    <p>먹고,보고,쇼핑까지 ! <br>
+                   인기 관광지 스팟에서 제대로놀기 <br>
+                </p>
+                </article>
                 </div>
                 <div class="waiki" style="margin-top:170px;">
                     호놀롤루 전통음식과 고즈넉한 배경에 커피한잔!
@@ -525,7 +545,8 @@
 
                 <div class="textbox" style="background-color:#f8f8f8;">
 
-
+                    <h1 id="pxhd">
+                        로코모코 로컬푸드 Locomoco </h1>
 
                     <p class="pxod">
                         먹음직스런 고기패티 위에 윤기나는 그레이비소스, 서니사이드업 후라이까지! <br>
@@ -867,11 +888,11 @@
             </div>
 
 
-            <hr style="margin-top:15px;">
+            
 
             <h1>쇼핑정보</h1>
 
-            <p style="font-size:13px; color:#AE5324; padding-top:5px;"><i class="fas fa-info-circle"></i>해당상품은
+            <p style="font-size:13px; color:#3f4a82; padding-top:5px;"><i class="fas fa-info-circle"></i>해당상품은
                 쇼핑센터에 방문하지 않습니다. </p>
             <p style="font-size:13px; color:#888888">해외 여행시 US$600 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다.
 
@@ -945,18 +966,18 @@
                     <p>일시: 03월01일 오후 17:35</p>
                     장소:
                     인천공항
-                    <bb style="color:brown;">
+                    <bb style="color:#3f4a82;">
                         제2여객터미널
                     </bb>
                     3층출국장
-                    <bb style="color:brown;">
+                    <bb style="color:#3f4a82;">
                         H카운터 옆 여행사 미팅장소 트레블러 테이블
                     </bb>
                 </dd>
 
 
 
-                <P style="color:#AE5324; font-size:13px; padding-left:10px; padding-top:10px;">
+                <P style="color:#3f4a82; font-size:13px; padding-left:10px; padding-top:10px;">
                     ※ 터미널과 미팅장소를 꼭 확인하세요!
 
                 </P>
@@ -973,7 +994,7 @@
 
             <div id="noticebox">
                 <div class="ntbox2" style="padding-left: 10px;">
-                    <h3>자유시간 및 자유여행시 <span style="color:rgb(230, 230, 65)">주의사항 안내</span></h3>
+                    <h3>자유시간 및 자유여행시 <span style="color:white;">주의사항 안내</span></h3>
                 </div>
 
                 <p>1. 자유시간 내 개별적으로 진행한 일정으로 발생한 모든 안전사고/도난/질병등의 사고는 당사가 책임지지않습니다. <br>
@@ -993,7 +1014,7 @@
                 <p>5.차량 내에서는 항시 안전벨트를 착용하시기를 바라며, 운행 중에는 절대로 좌석에서 일어나지 않습니다.</p>
 
                 <div class="ntbbox3">
-                    <h3>면책동의서 작성안내</h3>
+                    <h3 style="color:#3f4a82;">면책동의서 작성안내</h3>
                     <p style="margin-top:10px;">해양스포츠 및 일부 선택관광 상품은 일정 부분 스릴을 즐기는 투어로써 사전에 본인 스스로의 건강, 심리상태의 점검이
                         필요하며 <br>
                         현지 행사 진행시 개별적으로 면책 동의서를 작성 후 진행하는 점 양해를 바랍니다.</p>
@@ -1015,12 +1036,12 @@
 
                 <p style="font-size:13px; color:#5e2bb8; padding-top:5px;"><i class="fas fa-info-circle"></i> 현재 국제적으로 통용되는
                     호텔 등급의 표기 기준은 없으며 일부 국가에서는 자국의 기준에 따라 등급표기를 하는 경우가 있습니다.</p>
-                <p style="font-size:13px; color:#888888"><span class="circleicon">●</span> 여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이
+                <p style="font-size:13px; color:#888888"><span class="circleicon"></span> 여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이
                     발생하는 경우 여행자의 사전동의를 거쳐 변경될 수
                     있음을 양지하시기 바랍니다.
-                <p style="font-size:13px; color:#888888"><span class="circleicon">●</span> 당사 일정표 및 호텔정보에 표기되는 호텔의 등급표기는 현지
+                <p style="font-size:13px; color:#888888"><span class="circleicon"></span> 당사 일정표 및 호텔정보에 표기되는 호텔의 등급표기는 현지
                     호텔측으로부터 받은 등급 기준을 반영하여 정한 것으로 국제적으로 통용되는 등급은 아니며, 고객님의 선택의 편의를 도모하기 위함임을 양해바랍니다.
-                <p style="font-size:13px; color:#888888"><span class="circleicon">●</span> 본 정보는 호텔에 대한 전반적인 안내를 위한 것이며, 실제로
+                <p style="font-size:13px; color:#888888"><span class="circleicon"></span> 본 정보는 호텔에 대한 전반적인 안내를 위한 것이며, 실제로
                     사용하시는 시설과는 이미지가 다를 수 있습니다.
     
                 <div class="hotel-tap">
@@ -1172,7 +1193,7 @@
                                             <th>위치</th>
     
     
-                                            <td colspan="3">해변가</td>
+                                            <td colspan="3">와이키키,해변가</td>
     
                                             </td>
     
@@ -1444,14 +1465,14 @@
             </p>
 
             <form class="adultform" style="margin-right:15px; margin-top:10px;">
-                <input type="button" id=minusk a href="#add_one" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsa.value--;">
+                <input type="button" id=minuskk a href="#add_two" value=- style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsaa.value--;">
 
-                <input type=text id=amountsa value=0 style="width:50px; height:50px;
+                <input type=text id=amountsaa value=0 style="width:50px; height:50px;
                     text-align:center;">
 
-                <input type="button" id=plusk a href="#add_one" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsa.value++;">
+                <input type="button" id=pluskk a href="#add_two" value=+ style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsaa.value++;">
             </form>
 
 
@@ -1467,11 +1488,11 @@
 
 
             <form class="youngform" style="margin-right:15px; margin-top:10px;">
-                <input type="button" id=minusk2 a href="#add_one" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsb.value--;">
-                <input type=text id=amountsb value=0 style="width:50px; height:50px; text-align:center;">
-                <input type="button" id=plusk2 a href="#add_one" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsb.value++;">
+                <input type="button" id=minuskk2 a href="#add_two" value=- style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsbb.value--;">
+                <input type=text id=amountsbb value=0 style="width:50px; height:50px; text-align:center;">
+                <input type="button" id=pluskk2 a href="#add_two" value=+ style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountsbb.value++;">
             </form>
 
 
@@ -1487,11 +1508,11 @@
 
 
             <form class="kidsform" style="margin-right:15px; margin-top:10px;">
-                <input type="button" id=minusk3 a href="#add_one" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsc.value--;">
-                <input type=text id=amountsc value=0 style="width:50px; height:50px; text-align:center;">
-                <input type="button" id=plusk3 a href="#add_one" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsc.value++;">
+                <input type="button" id=minuskk3 a href="#add_two" value=- style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountscc.value--;">
+                <input type=text id=amountscc value=0 style="width:50px; height:50px; text-align:center;">
+                <input type="button" id=pluskk3 a href="#add_two" value=+ style="width:50px; height:50px;"
+                    onclick="javascript:this.form.amountscc.value++;">
             </form>
 
 
@@ -1502,7 +1523,7 @@
 
             <p style="color:#3f4a82; font-size:30px; font-weight:bold;">총금액</h1>
 
-            <input type="text" name="line1" class="linek" value="0" style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
+            <input type="text" name="linek1" class="linekk" value="0" style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
             font-size:32px; padding-left:20px; padding-bottom: 5px;
             color: #3f4a82;" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
 
@@ -1641,81 +1662,8 @@
             $('.fixbtn').show()
         });
 
-        
 
-        $('#plusk').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
-                    $(ele).val(parseInt($(ele).val())+3043200);
-                });
-                evt.preventDefault();
-            });
-    
-    
-            $('#minusk').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
-                    $(ele).val(parseInt($(ele).val())-3043200);
-    
-                    if($("#amountsa").val() < 0) {
-                        alert("최소 1명 이상 이어야 합니다.");
-                        $("#amountsa").val(0); 
-                        $(".linek").val(0);
-                      
-                    }
-    
-                       
-                    
-                });
-                evt.preventDefault();
-            });
-    
-    
-            $('#plusk2').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
-                    $(ele).val(parseInt($(ele).val())+2749200);
-                });
-                evt.preventDefault();
-            });
-
-            
-            $('#minusk2').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
-                    $(ele).val(parseInt($(ele).val())-2749200);
-                    if($("#amountsb").val() < 0) {
-                        alert("최소 1명 이상 이어야 합니다.");
-                        $("#amountsb").val(0); 
-                        $(".linek").val(0);
-                    }
-                    
-                });
-                evt.preventDefault();
-            });
-    
-            $('#plusk3').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
-                    $(ele).val(parseInt($(ele).val())+558600);
-                });
-                evt.preventDefault();
-            });
-    
-    
-            $('#minusk3').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
-                    $(ele).val(parseInt($(ele).val())-558600);
-    
-                
-    
-                    if($("#amountsc").val() < 0) {
-                        alert("최소 1명 이상 이어야 합니다.");
-                        $("#amountsc").val(0); 
-                        $(".linek").val(0);
-                    }
-                    
-                });
-                evt.preventDefault();
-            });
-
-            
-	
+            	
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');
 
@@ -1726,10 +1674,24 @@
 		$("#"+tab_id).addClass('current');
 	});
 
-
-
-
-
+    $(function(){
+  $('.navbar__toggleBtn').click(function(){
+    $('.navbar__menu').slideToggle();
+  });
+  });
+  
+  $(window).resize(function(){
+    if(window.innerWidth>802){
+      $('.navbar__menu').show();
+      $('.navbar__toogleBtn').hide();
+    }
+  });
+  $(window).resize(function(){
+    if(window.innerWidth<802){
+      $('.navbar__menu').hide();
+  }  
+   
+  });
         
     </script>
 

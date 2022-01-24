@@ -31,7 +31,7 @@ text-align: center; border-radius: 2rem; font-weight: 600; color:#3f4a82; font-s
      display:flex;
      }
 
-     .starphoto2{width:100%;}
+     .starphoto2{width:100%; margin-top:100px;}
 
 #fullbox{
     width:1320px; 
@@ -254,8 +254,8 @@ border:none;
 
 .schbtn a {text-decoration: none; color:#3f4a82; }
 
-.localphoto{width:100%; height:350px;}
-.starphoto{width:100%; height:500px;}
+.localphoto{width:100%; height:450px;}
+.starphoto{width:100%; height:500px; margin-top:100px;}
 
 .btnbox2{width:100%; height:50px;display:flex; justify-content: space-between; border-top:solid 1px #3f4a82; }
 .btnbox2 button { color:black;
@@ -303,15 +303,12 @@ font-size:13px;}
 
 /* short box */
 /* short box */
-/* short box */
-/* short box */
-/* short box */
-/* short box */
+
 
 .shortbox{
     padding-top:20px;
     width:400px;
-     height: 800px; 
+     height: 920px; 
      padding-left:1.8em !important;
      border:solid 1px black;
      position:sticky;
@@ -429,8 +426,8 @@ input[id*="checkbox"] + label{
         
     }
 
-    .ok12{width:20%;  height:77px; background-color: #f2f4f7;}
-    .ok13{width:80%; height:77px; background-color: #f2f4f7;}
+    .ok12{width:20%;  height:77px;}
+    .ok13{width:80%; height:77px; }
   
     .okh3 {
         padding-top:20px;
@@ -530,8 +527,8 @@ margin-right:20px; font-size:20px; }
 .rebtn2{width:31%; height:60px; background-color: #fff; border:solid 0.5px black;
  font-size:20px; padding-bottom:5px;}
 
- .rebtn2 a i {color:#AE5324;}
-.rebtn2:hover{border:solid 0.5px #AE5324;}
+ .rebtn2 a i {color:#3f4a82;}
+.rebtn2:hover{border:solid 0.5px #3f4a82;}
 .rebtn2 i:hover{ transform:translateY(-15%);}
 
 .modal .header {
@@ -563,14 +560,17 @@ margin-right:20px; font-size:20px; }
   }
   .tap-boxk > .btn-box > .notice-btn{
     background-color: white;
-    border:solid 0.5px black;
+    border:solid 1px black;
+    border-bottom:solid 0px;
+    font-weight: bold;
+  
     
     
     
   }
   .tap-boxk > .btn-box > .qna-btn{
     
-    border-bottom:solid 0.5px black;
+    
     color:white;
   }
   .tap-boxk > .content-boxk{
@@ -594,7 +594,7 @@ margin-right:20px; font-size:20px; }
     height:200px;
     border:solid 0.5px black;
   
-    margin-top:20px;
+   
   }
  
 
@@ -706,7 +706,7 @@ border-left:none;}
         .meeting{
             width:100%;
         height:200px;  
-    border:solid 1px #AE5324;
+    border:solid 1px #3f4a82;
 margin-top:20px;
 }
 
@@ -722,6 +722,7 @@ margin-top:20px;
        padding-bottom: 10px;
        color:white;
        font-weight:bold;
+       margin-right:15px;
     }
 
 
@@ -761,11 +762,11 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
 
   
 
-    #noticebox{width:869px; height:550px; border:solid 1px #ae5324; margin-top:30px;  }
+    #noticebox{width:839px; height:600px; border:solid 1px #3f4a82; margin-top:30px;  }
 #noticebox p {font-size: 13px; margin-top:30px;}
-    .ntbox2{background-color: #ae5324; color:white; height:10%; font-size:22px;}
+    .ntbox2{background-color: #3f4a82; color:white; height:10%; font-size:22px;}
 
-    .ntbbox3{background-color: #ddd; color:black; height:20%; }
+    .ntbbox3{background-color: #ddd; color:black; height:20%; margin-top:33px; }
 
 
 
@@ -800,6 +801,7 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
       cursor: pointer;
       width:33%;
       text-align: center;
+      border:solid 1px #3f4a82;
     }
     
     ul.tabs li.current{
@@ -825,3 +827,20 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
 input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
 input[id="tab04"]:checked ~ .con4 {display:block;}
+
+.pointbox{width:100%; height:300px; margin:0 auto;}
+.pointmain{width:620px; margin:0 auto;}
+
+.pointbox2{width:100%; height:300px; } 
+.pointart{width:30%; height:270px; margin-top:15px; margin-left:20px; background-color: white;
+float:left; text-align: center; border:solid 1px #999999;}
+
+
+.pointimg {width:100%;}
+
+
+.pointart img{ margin-top:15px;}
+
+
+#noticebox p {padding-left:10px;}
+#noticebox h3 {padding-left:10px; }
