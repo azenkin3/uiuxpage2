@@ -1,7 +1,7 @@
 
 @media (min-width:500px) and (max-width:801px){
     
-
+  #wraph, #wrapi {margin-top:50px;}
   #tab-1{height:5300px;}
   #tab-2{height:2600px;}
   #tab-3{height:3100px;}
@@ -131,15 +131,13 @@
 .btn25 {margin-right:10px;}
 }
 
+.tablejo{margin-top:45px;}
+
 .container3{width:100%;}
 ul.tabs li{
- 
   width:32%;
-
-
-
-  
 }
+
 
 
 
@@ -292,7 +290,7 @@ ul.tabs li{
 }
 .contact-area {height:400px; margin-bottom: 0;}
 
-
+#wraph, #wrapi {display:none;}
 }
 
 
