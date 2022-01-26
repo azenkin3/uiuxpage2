@@ -230,7 +230,7 @@
 
                                                 <input type="text" name="line1" class="linek" value="3043200" style="width:10.5rem; height:45px; margin-right:1px; margin-top:22px; border:none; text-align: center;
                                             font-size:1.5rem; padding-left:20px; padding-bottom: 5px;
-                                            color:#3f4a82;" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
+                                            color:#3f4a82;" onKeyup="value.replace(/[^0-9]/g,'');">
 
                                                 <p style="margin-right:40px; margin-top:32px; color:black; font-size:1.5rem">원</p>
 
@@ -265,14 +265,14 @@
                         </p>
             
                         <form class="adultform" style="margin-right:15px; margin-top:10px;">
-                            <input type="button" id=minusk a href="#add_one" value=- style="width:50px; height:50px;"
-                                onclick="javascript:this.form.amountsa.value--;">
+                            <input type="button" id=minus1 a href="#add_one" value=- style="width:50px; height:50px;"
+                                onclick="javascript:form.amountsa.value--;">
             
-                            <input type=text id=amountsa value=1 style="width:50px; height:50px;
+                            <input type=text id=amounts value=1 style="width:50px; height:50px;
                                 text-align:center;">
             
-                            <input type="button" id=plusk a href="#add_one" value=+ style="width:50px; height:50px;"
-                                onclick="javascript:this.form.amountsa.value++;">
+                            <input type="button" id=plus1 a href="#add_one" value=+ style="width:50px; height:50px;"
+                                onclick="javascript:form.amountsa.value++;">
                         </form>
             
             
@@ -290,10 +290,10 @@
             
                         <form class="youngform" style="margin-right:15px; margin-top:10px;">
                             <input type="button" id=minusk2 a href="#add_one" value=- style="width:50px; height:50px;"
-                                onclick="javascript:this.form.amountsb.value--;">
+                                onclick="javascript:form.amountsb.value--;">
                             <input type=text id=amountsb value=0 style="width:50px; height:50px; text-align:center;">
                             <input type="button" id=plusk2 a href="#add_one" value=+ style="width:50px; height:50px;"
-                                onclick="javascript:this.form.amountsb.value++;">
+                                onclick="javascript:form.amountsb.value++;">
                         </form>
             
             
@@ -310,10 +310,10 @@
             
                         <form class="kidsform" style="margin-right:15px; margin-top:10px;">
                             <input type="button" id=minusk3 a href="#add_one" value=- style="width:50px; height:50px;"
-                                onclick="javascript:this.form.amountsc.value--;">
+                                onclick="javascript:form.amountsc.value--;">
                             <input type=text id=amountsc value=0 style="width:50px; height:50px; text-align:center;">
                             <input type="button" id=plusk3 a href="#add_one" value=+ style="width:50px; height:50px;"
-                                onclick="javascript:this.form.amountsc.value++;">
+                                onclick="javascript:form.amountsc.value++;">
                         </form>
             
                     </div>
@@ -1488,13 +1488,13 @@
 
             <form class="adultform" style="margin-right:15px; margin-top:10px;">
                 <input type="button" id=minuskk a href="#add_two" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsaa.value--;">
+                    onclick="javascript:form.amountsaa.value--;">
 
-                <input type=text id=amountsaa value=0 style="width:50px; height:50px;
+                <input type=text id=amountsaa value=1 style="width:50px; height:50px;
                     text-align:center;">
 
                 <input type="button" id=pluskk a href="#add_two" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsaa.value++;">
+                    onclick="javascript:form.amountsaa.value++;">
             </form>
 
 
@@ -1511,10 +1511,10 @@
 
             <form class="youngform" style="margin-right:15px; margin-top:10px;">
                 <input type="button" id=minuskk2 a href="#add_two" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsbb.value--;">
+                    onclick="javascript:form.amountsbb.value--;">
                 <input type=text id=amountsbb value=0 style="width:50px; height:50px; text-align:center;">
                 <input type="button" id=pluskk2 a href="#add_two" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountsbb.value++;">
+                    onclick="javascript:form.amountsbb.value++;">
             </form>
 
 
@@ -1531,10 +1531,10 @@
 
             <form class="kidsform" style="margin-right:15px; margin-top:10px;">
                 <input type="button" id=minuskk3 a href="#add_two" value=- style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountscc.value--;">
+                    onclick="javascript:form.amountscc.value--;">
                 <input type=text id=amountscc value=0 style="width:50px; height:50px; text-align:center;">
                 <input type="button" id=pluskk3 a href="#add_two" value=+ style="width:50px; height:50px;"
-                    onclick="javascript:this.form.amountscc.value++;">
+                    onclick="javascript:form.amountscc.value++;">
             </form>
 
 
@@ -1545,9 +1545,9 @@
 
             <p style="color:#3f4a82; font-size:30px; font-weight:bold;">총금액</h1>
 
-            <input type="text" name="linek1" class="linekk" value="0" style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
+            <input type="text" name="linek1" class="linekk" value="3043200" style="width:160px; height:45px; margin-right:15px; margin-top:10px; border:none;
             font-size:32px; padding-left:20px; padding-bottom: 5px;
-            color: #3f4a82;" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
+            color: #3f4a82;" onKeyup="value.replace(/[^0-9]/g,'');">
 
             <h1 style="margin-right:15px; color:#3f4a82;">원</h1>
 
