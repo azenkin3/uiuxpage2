@@ -10,7 +10,7 @@
     
     
             $('#minuskk').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
+                $('.linekk').each(function(idx, ele) {
                     $(ele).val(parseInt($(ele).val())-3043200);
     
                     if($("#amountsaa").val() < 0) {
@@ -34,7 +34,7 @@
                 evt.preventDefault();
             });
             $('#minuskk2').click(function(evt) {
-                $('.linek').each(function(idx, ele) {
+                $('.linekk').each(function(idx, ele) {
                     $(ele).val(parseInt($(ele).val())-2749200);
                     if($("#amountsbb").val() < 0) {
                         alert("최소 1명 이상 이어야 합니다.");
