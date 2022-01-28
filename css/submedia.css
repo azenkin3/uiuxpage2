@@ -2,7 +2,7 @@
 @media (min-width:500px) and (max-width:801px){
     
   #wraph, #wrapi {margin-top:50px;}
-  #tab-1{height:5300px;}
+  #tab-1{height:5450px;}
   #tab-2{height:2600px;}
   #tab-3{height:3100px;}
 
@@ -116,7 +116,7 @@
 
 .boxa2 > .conart{width:200px; height:100px; margin:5px 8px;}
 
-#noticebox{width:100%; font-size:11px; height:800px;}
+#noticebox{width:100%; font-size:11px; height:720px;}
 
 .meeting{height:250px;}
 
@@ -233,7 +233,7 @@ ul.tabs li{
 
 .boxa2 > .conart{width:80px; height:100px; margin:5px 8px;}
 
-#noticebox{width:100%; font-size:11px; height:800px;}
+#noticebox{width:100%; font-size:11px; height:535px;}
 
 .meeting{height:250px;}
 
@@ -269,6 +269,8 @@ ul.tabs li{
 
   .starphoto2{width:100%;}
   .container3{width:100%;}
+
+  #wraph, #wrapi {display:none;}
  
 }
 
@@ -288,7 +290,7 @@ ul.tabs li{
    
     
 }
-.contact-area {height:400px; margin-bottom: 0;}
+.contact-area {height:360px; margin-bottom: 0;}
 
 #wraph, #wrapi {display:none;}
 }

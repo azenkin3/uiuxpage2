@@ -1,6 +1,13 @@
 
 a{text-decoration: none; }
 
+.contact-area {
+  border-bottom: 1px solid #353C46;
+  width:100%; 
+  height:410px;
+  margin-bottom:35px;
+
+}
 
 
 #pxhd{color:#1a1a1a; font-size:35px; text-align: left; font-weight: 600; padding-left: 15px;}
@@ -14,14 +21,14 @@ a{text-decoration: none; }
 .banner{width:100%; height:500px;  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/blur_jpg1.webp); 
     background-position: center; background-size:cover; background-attachment: fixed; text-align: center;}
     .content{flex-direction:column; width:1200px; height:500px;  margin:0 auto; display:flex; justify-content: center; align-items:center; }
-.content > h1 {font-size:4vw; color:white; padding:0; margin:0; text-transform: uppercase; }
+.content > h1 {font-size:3vw; color:white; padding:0; margin:0; text-transform: uppercase; }
 .content > p {font-size:1vw; color:white; padding:0; margin:0; text-align: center; }
 
 
 .waiki{width:80%; margin:0 auto; border:solid 1px #3f4a82;
 text-align: center; border-radius: 2rem; font-weight: 600; color:#3f4a82; font-size:17px; }
 
-.tag02{width:4.5rem; height:1.5rem; border:solid 1px black; color:black;  font-size:12px; text-align: center; margin-left:15px;}
+.tag02{width:4.5rem; height:1.5rem; border:solid 1px black; color:black;  font-size:12px; text-align: center; margin-left:2.5%;}
 .aal { float:right;}
 
 #topbox{
@@ -79,7 +86,7 @@ justify-content:space-between }
   color:#666666}
 .centerp{padding-top:20px;}
 
-#toppa{font-size:13px; color:black; padding-left:1rem;}
+#toppa{font-size:13px; color:black; padding-left:2.5%;}
 
 .airartbtn{width:100%; height:30%;}
 .mobbox> .btn13 {
@@ -752,21 +759,21 @@ dd{padding-left:10px; font-weight:bold; font-size: 14px; padding-top:10px;}
   .schbtn{
       width:150px;
        height:40px; 
-       border:solid 1px #ae5324;
+       border:solid 1px #3f4a82;
         background-color: #fff;
         margin-top:50px;
         font-size:13px;
-        color:#AE5324;
+        color:#3f4a82;
         cursor:pointer;
     }
 
   
 
-    #noticebox{width:839px; height:600px; border:solid 1px #3f4a82; margin-top:30px;  }
+    #noticebox{width:839px; height:535px; border:solid 1px #3f4a82; margin-top:30px;  }
 #noticebox p {font-size: 13px; margin-top:30px;}
     .ntbox2{background-color: #3f4a82; color:white; height:10%; font-size:22px;}
 
-    .ntbbox3{background-color: #ddd; color:black; height:20%; margin-top:33px; }
+    .ntbbox3{background-color: #ddd; color:black; height:100px; margin-top:33px; }
 
 
 
