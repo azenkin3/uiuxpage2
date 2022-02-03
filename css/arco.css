@@ -1,13 +1,4 @@
-/*
-*
-*    Author:    Michael Raffaele <michael@mraffaele.com>
-*    Date:    25th October 2011
-*    Info:     http://www.mraffaele.com/blog/2011/10/25/css-accordion-no-javascript/
-*
-*/
-
-/* Shared for all accordion types */
-#kk{color:black; font-size:13px;}
+.content .kk{color:black; font-size:13px;}
 
 .accordion {
    
@@ -179,8 +170,7 @@
     font-size:14px; 
     width:100%;
     margin-top:30px;
-   
- 
+
 }
 
 
@@ -303,6 +293,7 @@
     width:100%;
     border-right:none;
     border-left:none;
+    height:70px;
     
  
 }
@@ -400,40 +391,6 @@
 }
 
 
-.accordion8 ul li label:hover, .accordion8 [type=radio]:checked ~ label, .accordion8 [type=checkbox]:checked ~ label {
-    
-    color:#FFF;
-    
-}
-.accordion7 ul li label:hover, .accordion7 [type=radio]:checked ~ label, .accordion7 [type=checkbox]:checked ~ label {
-    
-    color:#FFF;
-    
-}
-
-.accordion6 ul li label:hover, .accordion6 [type=radio]:checked ~ label, .accordion6 [type=checkbox]:checked ~ label {
-    
-    color:#FFF;
-    
-}
-
-.accordion5 ul li label:hover, .accordion5 [type=radio]:checked ~ label, .accordion5 [type=checkbox]:checked ~ label {
-    
-    color:#FFF;
-    
-}
-
-.accordion4 ul li label:hover, .accordion4 [type=radio]:checked ~ label, .accordion4 [type=checkbox]:checked ~ label {
-    
-    color:#FFF;
-    
-}
-
-.accordion3 ul li label:hover, .accordion3 [type=radio]:checked ~ label, .accordion3 [type=checkbox]:checked ~ label {
-    
-    color:#FFF;
-    
-}
 
 .accordion8 .content8  {
     

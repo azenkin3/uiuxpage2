@@ -2,7 +2,7 @@
    window.onload = function(){
 
 $(function(){ 
-    $( document ).tooltip(); 
+    $( document ).tooltip2(); 
 
 });
    }

@@ -26,6 +26,27 @@
   <script src="js/slide.js"></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
   <script src="js/script.js"></script>
+  <script>
+       
+    $(function(){
+   $('.navbar__toggleBtn').click(function(){
+     $('.navbar__menu').slideToggle();
+   });
+   });
+   
+   $(window).resize(function(){
+     if(window.innerWidth>800){
+       $('.navbar__menu').show();
+       $('.navbar__toogleBtn').hide();
+     }
+   });
+   $(window).resize(function(){
+     if(window.innerWidth<800){
+       $('.navbar__menu').hide();
+   }  
+    
+   });
+     </script>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Jua&family=Nanum+Gothic:wght@700&display=swap');
@@ -668,26 +689,4 @@
 
 
 </body>
-
-<script>
-   $(function(){
-  $('.navbar__toggleBtn').click(function(){
-    $('.navbar__menu').slideToggle();
-  });
-  });
-  
-  $(window).resize(function(){
-    if(window.innerWidth>800){
-      $('.navbar__menu').show();
-      $('.navbar__toogleBtn').hide();
-    }
-  });
-  $(window).resize(function(){
-    if(window.innerWidth<800){
-      $('.navbar__menu').hide();
-  }  
-   
-  });
-</script>
-
 </html>
