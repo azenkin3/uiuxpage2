@@ -109,7 +109,7 @@
 .accordion2 label {
     display:block;
     font-size:16px;
-    line-height:16px;
+    line-height:70px;
     margin-right:15px;
     
     border:1px solid #542437;
@@ -121,7 +121,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-    display: flex
+
 }
 .accordion2 ul li label:hover, .accordion2 [type=radio]:checked ~ label, .accordion2 [type=checkbox]:checked ~ label {
     
@@ -301,7 +301,7 @@
 .accordion7 label {
     display:block;
     font-size:16px;
-    line-height:16px;
+    line-height:70px;
     margin-right:15px;
     
     border:1px solid #542437;
@@ -313,13 +313,13 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-    display: flex
 }
+    
 
 .accordion6 label {
     display:block;
     font-size:16px;
-    line-height:16px;
+    line-height:70px;
     margin-right:15px;
     
     border:1px solid #542437;
@@ -331,13 +331,13 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-    display: flex
+   
 }
 
 .accordion5 label {
     display:block;
     font-size:16px;
-    line-height:16px;
+    line-height:70px;
     margin-right:15px;
     
     border:1px solid #542437;
@@ -349,13 +349,13 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-    display: flex
+ 
 }
 
 .accordion4 label {
     display:block;
     font-size:16px;
-    line-height:16px;
+    line-height:70px;
     margin-right:15px;
     
     border:1px solid #542437;
@@ -367,13 +367,13 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-    display: flex
+   
 }
 
 .accordion3 label {
     display:block;
     font-size:16px;
-    line-height:16px;
+    line-height:70px;
     margin-right:15px;
     
     border:1px solid #542437;
@@ -385,7 +385,7 @@
     transition: all .2s ease-out;
     transition: all .2s ease-out;
     width:100%;
-    display: flex
+   
 
 
 }
